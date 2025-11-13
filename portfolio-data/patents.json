@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Smart Wearable for Predictive Health Monitoring",
+    "app_no": "IN20231000123",
+    "year": "2023",
+    "status": "Published",
+    "description": "Developed an AI-enabled wearable device for early health issue detection."
+  },
+  {
+    "title": "IoT-Based Women Safety System Using ML",
+    "app_no": "IN20212000456",
+    "year": "2021",
+    "status": "Filed",
+    "description": "Designed a smart system integrating AI and IoT for real-time safety alerts."
+  }
+]
