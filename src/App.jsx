@@ -16,7 +16,6 @@ import InvitedTalksPage from "./pages/InvitedTalksPage";
 import PeerReviewPage from "./pages/PeerReviewPage";
 import PatentsPage from "./pages/PatentsPage";
 import Footer from "./components/Footer";
-import Loader from "./components/Loader";
 import { fetchPortfolioData, defaultData } from "./data/githubData";
 
 
