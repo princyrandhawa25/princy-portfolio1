@@ -31,4 +31,25 @@
       "title": "Virtual Reality Enabled Robotic Surgery Training Through Telesurgery",
       "authors": "Akshet, P., Cai, Y., Princy, R.",
       "book_title": "Virtual and Augmented Reality Technology-Enhanced Learning. Gaming Media and Social Effects",
-      "editors": "Cai, Y., Ramnarain, U., J
+      "editors": "Cai, Y., Ramnarain, U., Jieqiong Chen, J.",
+      "publisher": "Springer, Singapore",
+      "doi": "https://doi.org/10.1007/978-981-96-2332-7_6"
+    },
+    {
+      "year": 2025,
+      "title": "IoT Based Smart Home Systems",
+      "authors": "Patel, A., Sharma, S., & Randhawa, P.",
+      "book_title": "Explainable IoT Applications: A Demystification",
+      "publisher": "Springer Nature Switzerland",
+      "pages": "277-293"
+    },
+    {
+      "year": 2025,
+      "title": "Garbage Detection Using SURF Algorithm Based on Merchandise Marker",
+      "authors": "Gupta, L., Jain, S., Bansal, D., & Randhawa, P.",
+      "book_title": "Handbook of Research on Machine Learning",
+      "pages": "349-365",
+      "publisher": "Apple Academic Press"
+    }
+  ]
+}
