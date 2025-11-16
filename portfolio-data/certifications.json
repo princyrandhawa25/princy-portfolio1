@@ -1,12 +1,164 @@
-[
-  {
-    "title": "Machine Learning Specialization",
-    "provider": "Coursera – Stanford University",
-    "year": "2022"
-  },
-  {
-    "title": "Deep Learning for Computer Vision",
-    "provider": "Udemy",
-    "year": "2021"
-  }
-]
+{
+  "courses_and_certifications": [
+    {
+      "sl_no": 1,
+      "course_name": "Young Leadership Development Program (YLDP)",
+      "organizing_institution": "People Business & Manipal University Jaipur",
+      "from": "Sep 2024",
+      "to": "July 2025",
+      "duration": "10 months"
+    },
+    {
+      "sl_no": 2,
+      "course_name": "First International Conference on Artificial Intelligence, Computation, Communication and Network Security (AICCoNS 2025)",
+      "organizing_institution": "University of Wollongong in Dubai, UAE",
+      "from": "5 June 2025",
+      "to": "6 June 2025",
+      "duration": "2 Days"
+    },
+    {
+      "sl_no": 3,
+      "course_name": "International Conference on Advance Synthesis, Characterization and Applications (AMSCA 2024)",
+      "organizing_institution": "Queensland University of Technology (QUT), Brisbane, Australia",
+      "from": "25 September 2024",
+      "to": "27 September 2024",
+      "duration": "3 Days"
+    },
+    {
+      "sl_no": 4,
+      "course_name": "International Conference on Information Management (ICIM)",
+      "organizing_institution": "Worcester College, University of Oxford, UK",
+      "from": "17 March 2023",
+      "to": "19 March 2023",
+      "duration": "3 Days"
+    },
+    {
+      "sl_no": 5,
+      "course_name": "Workshop on Writing Grant Proposals for Women Engineers",
+      "organizing_institution": "IIT Gandhinagar, DST-SERB Sponsored",
+      "from": "23 Feb 2023",
+      "to": "24 Feb 2023",
+      "duration": "2 Days"
+    },
+    {
+      "sl_no": 6,
+      "course_name": "MATLAB - Artificial Intelligence and Optimization Techniques",
+      "organizing_institution": "NITTR Chandigarh",
+      "from": "21 Nov 2022",
+      "to": "25 Nov 2022",
+      "duration": "1 Week"
+    },
+    {
+      "sl_no": 7,
+      "course_name": "Control Systems",
+      "organizing_institution": "NPTEL Online Certification (Swayam)",
+      "from": "July 2022",
+      "to": "Oct 2022",
+      "duration": "12 Weeks"
+    },
+    {
+      "sl_no": 8,
+      "course_name": "Inculcating Universal Human Values in Technical Education",
+      "organizing_institution": "UHV, AICTE",
+      "from": "11 July 2022",
+      "to": "15 July 2022",
+      "duration": "5 Days"
+    },
+    {
+      "sl_no": 9,
+      "course_name": "FDP on Feature Based Product Design, Digital Manufacturing",
+      "organizing_institution": "AICTE",
+      "from": "20 Sept 2021",
+      "to": "24 Sept 2021",
+      "duration": "5 Days"
+    },
+    {
+      "sl_no": 10,
+      "course_name": "FDP on Machine Learning and its Applications",
+      "organizing_institution": "Manipal University Jaipur (MUJ), AICTE",
+      "from": "16 Sept 2021",
+      "to": "20 Sept 2021",
+      "duration": "5 Days"
+    },
+    {
+      "sl_no": 11,
+      "course_name": "FDP on Virtual Reality and Augmented Reality",
+      "organizing_institution": "AICTE",
+      "from": "12 July 2021",
+      "to": "16 July 2021",
+      "duration": "5 Days"
+    },
+    {
+      "sl_no": 12,
+      "course_name": "FDP on Technological Leadership for Inclusive Digital Society",
+      "organizing_institution": "SMIT",
+      "from": "01 June 2021",
+      "to": "05 June 2021",
+      "duration": "5 Days"
+    },
+    {
+      "sl_no": 13,
+      "course_name": "Mathematics for Machine Learning: Multivariate Calculus",
+      "organizing_institution": "Imperial College London (Coursera)",
+      "from": "25 May 2021",
+      "to": "-",
+      "duration": "6 Weeks"
+    },
+    {
+      "sl_no": 14,
+      "course_name": "Introduction to the Internet of Things and Embedded Systems",
+      "organizing_institution": "University of California, Irvine (Coursera)",
+      "from": "11 April 2022",
+      "to": "-",
+      "duration": "4 Weeks"
+    },
+    {
+      "sl_no": 15,
+      "course_name": "FDP on Robotics",
+      "organizing_institution": "Vishnu Engineering College, AICTE",
+      "from": "23 Feb 2021",
+      "to": "27 Feb 2021",
+      "duration": "5 Days"
+    },
+    {
+      "sl_no": 16,
+      "course_name": "FDP on Electric Vehicle",
+      "organizing_institution": "Manipal University Jaipur (MUJ), AICTE",
+      "from": "01 Feb 2021",
+      "to": "05 Feb 2021",
+      "duration": "1 Week"
+    },
+    {
+      "sl_no": 17,
+      "course_name": "Short Term Course on Modern Optimization Tools Used in Engineering Field",
+      "organizing_institution": "SRM Valliammai Engineering College - AICTE",
+      "from": "02 Nov 2020",
+      "to": "07 Nov 2020",
+      "duration": "1 Week (7 Days)"
+    },
+    {
+      "sl_no": 18,
+      "course_name": "Workshop on Outcome-Based Education",
+      "organizing_institution": "MUJ TEC",
+      "from": "22 June 2020",
+      "to": "26 June 2020",
+      "duration": "5 Days"
+    },
+    {
+      "sl_no": 19,
+      "course_name": "Industrial Training on IoT",
+      "organizing_institution": "ENOVATE Skill (NITTR Chandigarh)",
+      "from": "01 June 2020",
+      "to": "08 July 2020",
+      "duration": "6 Weeks"
+    },
+    {
+      "sl_no": 29,
+      "course_name": "Short Term Course on Business Writing",
+      "organizing_institution": "University of Colorado (Coursera)",
+      "from": "19 March 2020",
+      "to": "-",
+      "duration": "4 Weeks"
+    }
+  ]
+}
