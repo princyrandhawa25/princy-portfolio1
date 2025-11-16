@@ -43,3 +43,6 @@
     animation: carousel-scroll 24s linear infinite;
   }
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
