@@ -1,7 +1,8 @@
 {
   "name": "princy-portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": true,git stat
+  "homepage": "https://github.com/princyrandhawa25/princy-portfolio1",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
