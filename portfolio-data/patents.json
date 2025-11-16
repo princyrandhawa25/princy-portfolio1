@@ -1,16 +1,77 @@
-[
-  {
-    "title": "Smart Wearable for Predictive Health Monitoring",
-    "app_no": "IN20231000123",
-    "year": "2023",
-    "status": "Published",
-    "description": "Developed an AI-enabled wearable device for early health issue detection."
-  },
-  {
-    "title": "IoT-Based Women Safety System Using ML",
-    "app_no": "IN20212000456",
-    "year": "2021",
-    "status": "Filed",
-    "description": "Designed a smart system integrating AI and IoT for real-time safety alerts."
-  }
-]
+{
+  "patents_and_ipr": [
+    {
+      "date": "03/2025",
+      "title": "SMART ORTHO SUIT",
+      "co_inventors": [
+        "Dr. Shiva Prasad",
+        "Safal Choudhary",
+        "Sampath Kumar",
+        "Manthan Chawla"
+      ],
+      "application_number": "202511021596 A"
+    },
+    {
+      "date": "03/2025",
+      "title": "A SMART BELT TO DETECT ABDOMINAL CANCER",
+      "co_inventors": [
+        "Dr. Shiva Prasad",
+        "Safal Choudhary",
+        "Sampath Kumar",
+        "Manthan Chawla"
+      ],
+      "application_number": "202511021595 A"
+    },
+    {
+      "date": "08/2024",
+      "title": "AJARTHRITIS ORTHO-BAND / RELIVING PAD",
+      "co_inventors": [
+        "Dr. Shiva Prasad",
+        "Safal Choudhary",
+        "Sampath Kumar",
+        "Manthan Chawla"
+      ],
+      "application_number": "2024110184121"
+    },
+    {
+      "date": "10/2023",
+      "title": "Smart Handkerchief Dispensing Chest",
+      "co_inventors": [
+        "Dr. Shiva Prasad",
+        "Safal Choudhary"
+      ],
+      "application_number": "202311063044"
+    },
+    {
+      "date": "03/2023",
+      "title": "A Sustainable Approach to Waste Management: The Autonomous Trash-Collecting Robot Design Using Yolo-v4-Tiny",
+      "co_inventors": [
+        "Medarshi Kulshreshtha",
+        "Shanu Chandra",
+        "Georgios Tsaramirsis",
+        "Adil Khalidos",
+        "Aloia O. Khalidos"
+      ],
+      "application_number": "202311056433"
+    },
+    {
+      "date": "03/2022",
+      "title": "Low-Cost IoT Enabled Anti-Theft Device for Two-Wheeled Vehicles",
+      "co_inventors": [
+        "Akshet Patel",
+        "Raj Palinkonda",
+        "Dr. Shiva Prasad HC"
+      ],
+      "application_number": "2022/02834 (South Africa)"
+    },
+    {
+      "date": "04/2021",
+      "title": "Feature Extraction Matrix (FEM): An Effective Feature Extraction Algorithm for Enhanced Prediction Model of Time Series Data",
+      "co_inventors": [
+        "Princy Randhawa",
+        "Vijay Shanthagiri"
+      ],
+      "application_number": "India L-102426/2021"
+    }
+  ]
+}
