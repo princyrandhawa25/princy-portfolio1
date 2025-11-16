@@ -1,0 +1,156 @@
+{
+  "peer_reviewed_journal_publications": [
+    {
+      "title": "Metaverse Logistics: Harnessing Blockchain Technology for Next-Generation Supply Chain Systems",
+      "authors": "Parwani, A.K., Goyal, P., Randhawa, S.B., Rajawat, A.S. et al.",
+      "journal": "SN Computer Science",
+      "volume_issue_pages": "6, 793",
+      "year": 2025,
+      "doi": "https://doi.org/10.1007/s42979-025-04330-5"
+    },
+    {
+      "title": "Design and Control of a Dual-Drug-Chamber Drug Delivery Capsule Robot for Multi-Target Drug Delivery",
+      "authors": "B. Ye, Princy Randhawa et al.",
+      "journal": "IEEE Transactions on Automation Science and Engineering",
+      "year": 2025,
+      "doi": "10.1109/TASE.2025.3604374"
+    },
+    {
+      "title": "Artificial Intelligence based Smart Pneumatic Tools for Industrial Applications",
+      "authors": "Princy, R., Adusumilli, S. B. K., Poddutoori, J. R., Podduturi, M., Dighe, A. A., & Devesh, S.",
+      "journal": "Engineered Science",
+      "year": 2025
+    },
+    {
+      "title": "Artificial Intelligence Driven Integrated Hydraulic and Pneumatic Pressure Control Systems for Advanced Regulation of Shut-off Valves",
+      "authors": "P. R et al.",
+      "journal": "Engineered Science",
+      "volume_issue_pages": "35, 1427",
+      "year": 2025,
+      "doi": "10.30919/es1427"
+    },
+    {
+      "title": "Multifaceted Improvements in Soil Characteristics and Molecular Dynamics through Inorganic and Bio-Based Nano Additives",
+      "authors": "Naik, N., Noonia, A., Princy, R., Maddodi, B. S., Hiremath, P., & Guo, Z.",
+      "journal": "ES Food & Agroforestry",
+      "volume_issue_pages": "19, 1378",
+      "year": 2025
+    },
+    {
+      "title": "Analysis of existing techniques in human emotion and behavioral analysis using deep learning and machine learning models",
+      "authors": "Jinnuo, Z., Goyal, S. B., Rajawat, A. S., Waked, H. N., Ahmad, S., Randhawa, P., & Naik, N.",
+      "journal": "Engineering Research Express",
+      "volume_issue_pages": "7(1), 012201",
+      "year": 2025
+    },
+    {
+      "title": "An Overview of Gaming Peripheral and Gadgets and its Effect on Gaming Performance",
+      "authors": "P. Randhawa, P. Chintale et al.",
+      "journal": "Engineered Science",
+      "doi": "http://dx.doi.org/10.30919/es1293"
+    },
+    {
+      "title": "Telemedicine in Endourology for Patient Management and Healthcare Delivery: Current Status and Future Perspectives",
+      "authors": "Talyshinskii, P., Randhawa, A., Naik, N., Hameed, B.M.Z. et al.",
+      "journal": "Current Urology Reports",
+      "year": 2024,
+      "doi": "https://doi.org/10.1007/s11934-024-01224-6"
+    },
+    {
+      "title": "Deep Neural Network as a Tool to Classify and Identify the 316L and AZ31BMg Metal Surface Morphology: An Empirical Study",
+      "authors": "P. Bhat, P. Randhawa et al.",
+      "journal": "Engineered Science",
+      "volume_issue_pages": "26, 1064",
+      "year": 2023,
+      "doi": "10.30919/es1064"
+    },
+    {
+      "title": "Design of a Shell to Protect Sensors and Drones",
+      "authors": "Hei T.L., Kulshrestha M., Randhawa P.",
+      "journal": "EAI Endorsed Scal Inf Syst",
+      "year": 2023
+    },
+    {
+      "title": "Autism Spectrum Disorder Detection: Video Games based Facial Expression Diagnosis using Deep Learning",
+      "authors": "Morched Derbali, Mutasem Jarrah, Princy Randhawa",
+      "journal": "International Journal of Advanced Computer Science and Applications (IJACSA)",
+      "volume_issue_pages": "14(1)",
+      "year": 2023
+    },
+    {
+      "title": "A Modern Approach towards an Industry 4.0 Model: From Driving Technologies to Management",
+      "authors": "Tsaramirsis, G., Kantaros, A., Princy, Randhawa, I., Piromalis, D., Apostolopoulos, C., Pavlopoulou, A., & Khan, F. Q.",
+      "journal": "Journal of Sensors",
+      "year": 2022
+    },
+    {
+      "title": "A Critical Evaluation of Procedural Content Generation Approaches for Digital Twins",
+      "authors": "Abdul Latif, Megat F. Zuhairi, Fazal Qudus Khan, Princy Randhawa, Akshet Patel",
+      "journal": "Journal of Sensors",
+      "year": 2022,
+      "article_id": "5629645"
+    },
+    {
+      "title": "Bio-Virus Spread Simulation in Real 3D Space using Augmented Reality",
+      "authors": "Patel, A., Sharma, P., Reddy, N., Princy, R., Tsaramirsis, G., Pavlopoulou, A., ... & Piromalis, D.",
+      "journal": "Engineered Science",
+      "volume_issue_pages": "16, 319-330",
+      "year": 2021
+    },
+    {
+      "title": "Takagi-Sugeno Fuzzy Modeling and Control for Effective Robotic Manipulator Motion",
+      "authors": "Aldarraji, I., Kakei, A., Ismaeel, A. G., Tsaramirsis, G., Khan, F. Q., Randhawa, P., & Jan, S.",
+      "journal": "arXiv",
+      "year": 2021,
+      "preprint_id": "arXiv:2112.03006"
+    },
+    {
+      "title": "Applications for Healthcare Robots in Combating the COVID-19 Pandemic",
+      "authors": "Raje, S., Reddy, N., Jerbi, H., Randhawa, P., Tsaramirsis, G., Shrivas, N. V., & Piromalis, D.",
+      "journal": "Applied Bionics and Biomechanics",
+      "year": 2021
+    },
+    {
+      "title": "OATCR: Outdoor autonomous trash-collecting robot design using YOLOv4-tiny",
+      "authors": "Kulshreshtha, M., Chandra, S. S., Randhawa, P., Tsaramirsis, G., Khadidos, A., & Khadidos, A. O.",
+      "journal": "Electronics",
+      "volume_issue_pages": "10(18), 2292",
+      "year": 2021
+    },
+    {
+      "title": "Machine learning approach for the classification of violent attack based on fabric sensors",
+      "authors": "Randhawa, P., Shanthagiri, V. C., & Kumar, A.",
+      "journal": "Mechatronic Systems and Control",
+      "volume_issue_pages": "49(4), 214-219",
+      "year": 2021,
+      "doi": "10.2316/J.2021.201-0107"
+    },
+    {
+      "title": "Human activity detection using machine learning methods from wearable sensors",
+      "authors": "Randhawa, P., Shanthagiri, V., Kumar, A., & Yadav, V.",
+      "journal": "Sensor Review",
+      "year": 2020
+    },
+    {
+      "title": "Concept of operations to system design and development-an integrated system for aircraft mission feasibility analysis using STK engine, MATLAB and LabVIEW",
+      "authors": "Randhawa, P., & Shanthagiri, V.",
+      "journal": "International Journal of Instrumentation and Control Systems (IJICS)",
+      "volume_issue_pages": "5(4)",
+      "year": 2015
+    },
+    {
+      "title": "Violent activity recognition by E-textile sensors based on machine learning methods",
+      "authors": "Randhawa, P., Shanthagiri, V., & Kumar, A.",
+      "journal": "Journal of Intelligent & Fuzzy Systems",
+      "volume_issue_pages": "39(6), 8115-8123",
+      "year": 2020
+    },
+    {
+      "title": "Identification of Violent Response with Stretch Sensor Data from a Smart-Jacket using Naïve Bayes Algorithm",
+      "authors": "Randhawa, P., Shanthagiri, V., & Kumar, A.",
+      "journal": "International Journal of Innovative Technology and Exploring Engineering",
+      "volume_issue_pages": "Vol. 9, Issue 1",
+      "year": 2019
+    }
+  ]
+}
