@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/princy-portfolio1/static/css/main.4465bf3c.css",
-    "main.js": "/princy-portfolio1/static/js/main.55824ef0.js",
+    "main.js": "/princy-portfolio1/static/js/main.fefd01bc.js",
     "static/js/453.4661d3e9.chunk.js": "/princy-portfolio1/static/js/453.4661d3e9.chunk.js",
     "static/media/p4.jpg": "/princy-portfolio1/static/media/p4.4fd5023bbd41a5bdb1c7.jpg",
     "static/media/Black & Blue Minimalist Modern Initial Font Logo.png": "/princy-portfolio1/static/media/Black & Blue Minimalist Modern Initial Font Logo.cdb7b032b5e549d14635.png",
@@ -11,11 +11,11 @@
     "static/media/princy_photo.jpg": "/princy-portfolio1/static/media/princy_photo.a018fb79260161538da9.jpg",
     "index.html": "/princy-portfolio1/index.html",
     "main.4465bf3c.css.map": "/princy-portfolio1/static/css/main.4465bf3c.css.map",
-    "main.55824ef0.js.map": "/princy-portfolio1/static/js/main.55824ef0.js.map",
+    "main.fefd01bc.js.map": "/princy-portfolio1/static/js/main.fefd01bc.js.map",
     "453.4661d3e9.chunk.js.map": "/princy-portfolio1/static/js/453.4661d3e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4465bf3c.css",
-    "static/js/main.55824ef0.js"
+    "static/js/main.fefd01bc.js"
   ]
 }
