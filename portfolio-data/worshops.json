@@ -1,14 +1,31 @@
-[
-  {
-    "title": "AI Tools for Education",
-    "role": "Resource Person",
-    "organization": "Dayananda Sagar University",
-    "year": "2024"
-  },
-  {
-    "title": "IoT Applications using Raspberry Pi",
-    "role": "Coordinator",
-    "organization": "Manipal University Jaipur",
-    "year": "2019"
-  }
-]
+{
+  "workshops_and_conferences_organized": [
+    {
+      "sl_no": 1,
+      "title": "IEEE International Conference on Augmented Reality, Intelligent Systems, and Industrial Automation (ARIIA-2024)",
+      "role": "Organizer",
+      "date": "20-21 Dec 2024"
+    },
+    {
+      "sl_no": 2,
+      "title": "AICTE Sponsored ATAL FDP on Recent Advances in AI for Industrial Applications",
+      "role": "Organizer",
+      "date": "2-7 Dec 2024"
+    },
+    {
+      "sl_no": 3,
+      "title": "Workshop on System Tool Kit",
+      "role": "Organizer",
+      "location": "Manipal Institute of Technology, Manipal, Karnataka",
+      "date": "2013",
+      "duration": "2 Days"
+    },
+    {
+      "sl_no": 4,
+      "title": "AICTE FDP on Electric Vehicle",
+      "role": "Organizer",
+      "location": "Manipal University Jaipur",
+      "date": "Feb 2021"
+    },
+    {
+      "sl
