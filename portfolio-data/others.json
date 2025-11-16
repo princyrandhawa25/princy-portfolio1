@@ -1,0 +1,39 @@
+{
+  "voluntary_service": [
+    {
+      "year": "2017-2018",
+      "role": "Educator",
+      "duration": "2 hours (November)",
+      "location": "Mahavidyalaya Bagru",
+      "topic": "Cancer Awareness Program"
+    },
+    {
+      "year": "2018-2019",
+      "role": "Educator",
+      "duration": "2 hours (April)",
+      "location": "Sanskar College",
+      "topic": "Women Sanitation & Hygiene"
+    },
+    {
+      "year": "2019-2020",
+      "note": "No specific activity recorded"
+    },
+    {
+      "year": "2020-2021",
+      "service": [
+        {
+          "role": "Educator",
+          "duration": "2 hours (February)",
+          "location": "Anuradha BED College",
+          "topic": "Women Sanitation & Hygiene"
+        },
+        {
+          "role": "Educator",
+          "duration": "3–4 hours (September)",
+          "location": "Ashraya Care Foundation",
+          "topic": "COVID-19 Symptoms and Preventions"
+        }
+      ]
+    }
+  ]
+}
