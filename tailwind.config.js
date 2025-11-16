@@ -9,8 +9,8 @@ module.exports = {
         background: "#fffaf7",
       },
       fontFamily: {
-        heading: ["'Poppins'", "sans-serif"],
-        body: ["'Inter'", "sans-serif"],
+        heading: ["'Roboto'", "sans-serif"],
+        body: ["'Roboto'", "sans-serif"],
       },
     },
   },

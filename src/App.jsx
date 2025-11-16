@@ -1,50 +1,80 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header";
-import About from "./components/About";
-import Education from "./components/Education";
-import Experience from "./components/Experience";
-import ResearchInterests from "./components/ResearchInterests";
-import Awards from "./components/Awards";
-import Patents from "./components/Patents";
-import Publications from "./components/Publications";
-import BookChapters from "./components/BookChapters";
-import Talks from "./components/Talks";
-import Certifications from "./components/Certifications";
-import Workshops from "./components/Workshops";
-import Service from "./components/Service";
-import Committees from "./components/Committees";
-import References from "./components/References";
+import Home from "./pages/Home";
+import AboutPage from "./pages/AboutPage";
+import ConferencesPage from "./pages/ConferencesPage";
+import JournalsPage from "./pages/JournalsPage";
+import AwardsPage from "./pages/AwardsPage";
+import AcademicsPage from "./pages/AcademicsPage";
+import CertificationsPage from "./pages/CertificationsPage";
+import FundingPage from "./pages/FundingPage";
+import BookChaptersPage from "./pages/BookChaptersPage";
+import WorkshopsPage from "./pages/WorkshopsPage";
+import GuestEditorPage from "./pages/GuestEditorPage";
+import OthersPage from "./pages/OthersPage";
+import InvitedTalksPage from "./pages/InvitedTalksPage";
+import PeerReviewPage from "./pages/PeerReviewPage";
+import PatentsPage from "./pages/PatentsPage";
 import Footer from "./components/Footer";
 import Loader from "./components/Loader";
-import { fetchGitHubData } from "./data/githubData";
+import { fetchPortfolioData, defaultData } from "./data/githubData";
+
 
 function App() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState(defaultData);
+  const getRoute = () => (window.location.hash.slice(1) || "/");
+  const [route, setRoute] = useState(getRoute());
 
   useEffect(() => {
-    fetchGitHubData().then(setData).catch(console.error);
+    let mounted = true;
+    const onHashChange = () => setRoute(getRoute());
+    window.addEventListener("hashchange", onHashChange);
+    fetchPortfolioData()
+      .then((d) => {
+        if (mounted && d) setData(d);
+      })
+      .catch((e) => console.error(e));
+    return () => {
+      mounted = false;
+      window.removeEventListener("hashchange", onHashChange);
+    };
   }, []);
 
-  if (!data) return <Loader />;
-
   return (
-    <div className="min-h-screen bg-background text-secondary font-body">
-      <Header />
-      <main className="px-6 md:px-20 space-y-16 py-10">
-        <About data={data.about} />
-        <ResearchInterests data={data.researchInterests} />
-        <Education />
-        <Experience />
-        <Publications data={data.publications} />
-        <BookChapters data={data.bookChapters} />
-        <Patents data={data.patents} />
-        <Awards data={data.awards} />
-        <Talks data={data.talks} />
-        <Certifications data={data.certifications} />
-        <Workshops data={data.workshops} />
-        <Service data={data.service} />
-        <Committees data={data.committees} />
-        <References />
+    <div className="min-h-screen bg-black text-secondary font-body">
+      <Header currentRoute={route} />
+      <main className="px-6 md:px-20 py-0">
+        {route === "/about" ? (
+          <AboutPage data={data} />
+        ) : route === "/conferences" || route === "/publications" ? (
+          <ConferencesPage data={data} />
+        ) : route === "/journals" ? (
+          <JournalsPage data={data} />
+        ) : route === "/awards" || route === "/achievements" ? (
+          <AwardsPage data={data} />
+        ) : route === "/academics" ? (
+          <AcademicsPage />
+        ) : route === "/funding" ? (
+          <FundingPage />
+        ) : route === "/books" ? (
+          <BookChaptersPage />
+        ) : route === "/workshops" ? (
+          <WorkshopsPage />
+        ) : route === "/guest-editor" ? (
+          <GuestEditorPage />
+        ) : route === "/others" ? (
+          <OthersPage />
+        ) : route === "/invited-talks" ? (
+          <InvitedTalksPage />
+        ) : route === "/peer-review" ? (
+          <PeerReviewPage />
+        ) : route === "/patents" ? (
+          <PatentsPage />
+        ) : route === "/certifications" ? (
+          <CertificationsPage data={data} />
+        ) : (
+          <Home data={data} />
+        )}
       </main>
       <Footer />
     </div>
