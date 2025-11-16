@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { fetchData } from "../data/githubData";
 
 const Publications = ({
@@ -22,64 +22,68 @@ const Publications = ({
     }
   }, [data, dataSource]);
 
-  const norm = (p) => {
-    const title = p.title || p.name || p.paper || "Untitled";
-    const authors = Array.isArray(p.authors)
-      ? p.authors.filter(Boolean)
-      : typeof p.authors === "string"
-      ? p.authors
-          .split(/[,;]+/)
-          .map((a) => a.trim())
-          .filter(Boolean)
-      : [];
-    const venue =
-      p.venue || p.journal || p.conference || p.book || p.publisher || "";
-    const year = p.year || p.date || p.published || "";
-    const volume = p.volume || "";
-    const issue = p.issue || p.number || "";
-    const pages = p.pages || p.page || "";
-    const volumeIssuePages = p.volume_issue_pages || "";
-    const articleId = p.article_id || p.identifier || "";
-    let type = (
-      p.type ||
-      p.category ||
-      (p.journal ? "Journal" : p.conference ? "Conference" : "")
-    )
-      .toString()
-      .trim();
-    if (!type && filterType) {
-      type = filterType;
-    }
-    const rawDoi = (p.doi || "").toString().trim();
-    const cleanedDoi = rawDoi.replace(/^https?:\/\/doi.org\//i, "");
-    const doiUrl = rawDoi
-      ? rawDoi.startsWith("http")
-        ? rawDoi
-        : `https://doi.org/${cleanedDoi}`
-      : "";
-    const link =
-      p.link ||
-      p.url ||
-      (doiUrl && !doiUrl.includes("arxiv.org") ? doiUrl : "");
-    const pdf = p.pdf || "";
-    return {
-      title,
-      authors,
-      venue,
-      year,
-      volume,
-      issue,
-      pages,
-      volumeIssuePages,
-      articleId,
-      type,
-      doi: cleanedDoi || rawDoi,
-      doiUrl,
-      link,
-      pdf,
-    };
-  };
+  const norm = useCallback(
+    (p) => {
+      const title = p.title || p.name || p.paper || "Untitled";
+      const authors = Array.isArray(p.authors)
+        ? p.authors.filter(Boolean)
+        : typeof p.authors === "string"
+        ? p.authors
+            .split(/[,;]+/)
+            .map((a) => a.trim())
+            .filter(Boolean)
+        : [];
+      const venue =
+        p.venue || p.journal || p.conference || p.book || p.publisher || "";
+      const year = p.year || p.date || p.published || "";
+      const volume = p.volume || "";
+      const issue = p.issue || p.number || "";
+      const pages = p.pages || p.page || "";
+      const volumeIssuePages = p.volume_issue_pages || "";
+      const articleId = p.article_id || p.identifier || "";
+      let type = (
+        p.type ||
+        p.category ||
+        (p.journal ? "Journal" : p.conference ? "Conference" : "")
+      )
+        .toString()
+        .trim();
+      if (!type && filterType) {
+        type = filterType;
+      }
+      const rawDoi = (p.doi || "").toString().trim();
+      const cleanedDoi = rawDoi.replace(/^https?:\/\/doi.org\//i, "");
+      const doiUrl = rawDoi
+        ? rawDoi.startsWith("http")
+          ? rawDoi
+          : `https://doi.org/${cleanedDoi}`
+        : "";
+      const link =
+        p.link ||
+        p.url ||
+        (doiUrl && !doiUrl.includes("arxiv.org") ? doiUrl : "");
+      const pdf = p.pdf || "";
+      return {
+        title,
+        authors,
+        venue,
+        year,
+        volume,
+        issue,
+        pages,
+        volumeIssuePages,
+        articleId,
+        type,
+        doi: cleanedDoi || rawDoi,
+        doiUrl,
+        link,
+        pdf,
+      };
+    },
+    [filterType]
+  );
 
+  // ✅ Added 'norm' to dependency array to satisfy ESLint
   const sorted = useMemo(() => {
     const withNorm = (items || []).map((p) => ({ raw: p, ...norm(p) }));
     withNorm.sort((a, b) => {
@@ -89,7 +93,7 @@ const Publications = ({
       return (a.title || "").localeCompare(b.title || "");
     });
     return withNorm;
-  }, [items]);
+  }, [items, norm]);
 
   const filtered = useMemo(() => {
     if (!filterType) return sorted;
@@ -202,5 +206,3 @@ const Publications = ({
 };
 
 export default Publications;
-
-
