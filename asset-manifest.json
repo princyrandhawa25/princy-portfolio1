@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/princy-portfolio1/static/css/main.4465bf3c.css",
-    "main.js": "/princy-portfolio1/static/js/main.fefd01bc.js",
-    "static/js/453.4661d3e9.chunk.js": "/princy-portfolio1/static/js/453.4661d3e9.chunk.js",
-    "static/media/p4.jpg": "/princy-portfolio1/static/media/p4.4fd5023bbd41a5bdb1c7.jpg",
-    "static/media/Black & Blue Minimalist Modern Initial Font Logo.png": "/princy-portfolio1/static/media/Black & Blue Minimalist Modern Initial Font Logo.cdb7b032b5e549d14635.png",
-    "static/media/p3.jpg": "/princy-portfolio1/static/media/p3.3d862b5d01ee0cde2a19.jpg",
-    "static/media/p1.jpg": "/princy-portfolio1/static/media/p1.bdda6ebb157054daa800.jpg",
-    "static/media/p2.jpg": "/princy-portfolio1/static/media/p2.80f4a2ad8f79e209e68b.jpg",
-    "static/media/princy_photo.jpg": "/princy-portfolio1/static/media/princy_photo.a018fb79260161538da9.jpg",
-    "index.html": "/princy-portfolio1/index.html",
-    "main.4465bf3c.css.map": "/princy-portfolio1/static/css/main.4465bf3c.css.map",
-    "main.fefd01bc.js.map": "/princy-portfolio1/static/js/main.fefd01bc.js.map",
-    "453.4661d3e9.chunk.js.map": "/princy-portfolio1/static/js/453.4661d3e9.chunk.js.map"
+    "main.css": "/static/css/main.4465bf3c.css",
+    "main.js": "/static/js/main.c8a995e5.js",
+    "static/js/453.4661d3e9.chunk.js": "/static/js/453.4661d3e9.chunk.js",
+    "static/media/p4.jpg": "/static/media/p4.4fd5023bbd41a5bdb1c7.jpg",
+    "static/media/Black & Blue Minimalist Modern Initial Font Logo.png": "/static/media/Black & Blue Minimalist Modern Initial Font Logo.cdb7b032b5e549d14635.png",
+    "static/media/p3.jpg": "/static/media/p3.3d862b5d01ee0cde2a19.jpg",
+    "static/media/p1.jpg": "/static/media/p1.bdda6ebb157054daa800.jpg",
+    "static/media/p2.jpg": "/static/media/p2.80f4a2ad8f79e209e68b.jpg",
+    "static/media/princy_photo.jpg": "/static/media/princy_photo.a018fb79260161538da9.jpg",
+    "index.html": "/index.html",
+    "main.4465bf3c.css.map": "/static/css/main.4465bf3c.css.map",
+    "main.c8a995e5.js.map": "/static/js/main.c8a995e5.js.map",
+    "453.4661d3e9.chunk.js.map": "/static/js/453.4661d3e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4465bf3c.css",
-    "static/js/main.fefd01bc.js"
+    "static/js/main.c8a995e5.js"
   ]
 }
