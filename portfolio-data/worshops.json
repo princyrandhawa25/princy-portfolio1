@@ -28,4 +28,73 @@
       "date": "Feb 2021"
     },
     {
-      "sl
+      "sl_no": 5,
+      "title": "AICTE FDP on Industrial Applications of Machine Learning and Artificial Intelligence",
+      "role": "Organizer",
+      "date": "September 2021"
+    },
+    {
+      "sl_no": 6,
+      "title": "AICTE FDP on Digital Manufacturing",
+      "role": "Organizer",
+      "date": "September 2021"
+    },
+    {
+      "sl_no": 7,
+      "title": "International Conference on Industry 4.0 (ICI 4.0)",
+      "role": "Convener / Communication Chair",
+      "location": "Abu Dhabi",
+      "date": "27 March 2022",
+      "duration": "2 Days"
+    },
+    {
+      "sl_no": 8,
+      "title": "Social Connect Program on Symptoms and Precautions for COVID-19",
+      "role": "Organizer",
+      "location": "Ashraya Care Foundation",
+      "date": "1 Dec 2021"
+    },
+    {
+      "sl_no": 9,
+      "title": "Social Awareness Program on Women Sanitation Hygiene and Cancer Awareness",
+      "role": "Organizer",
+      "location": "Nearby village colleges",
+      "years": ["2017", "2018", "2019", "2021"]
+    },
+    {
+      "sl_no": 10,
+      "title": "Industrial Visits for Students",
+      "role": "Organizer",
+      "location": "Jaipur",
+      "years": ["2019", "2021"]
+    },
+    {
+      "sl_no": 11,
+      "title": "Machine Learning Workshop",
+      "role": "Organizer",
+      "date": "11-15 Aug 2018",
+      "duration": "5 Days"
+    },
+    {
+      "sl_no": 12,
+      "title": "Workshop on Computer Vision",
+      "role": "Organizer",
+      "date": "17-19 Sept 2019",
+      "duration": "3 Days"
+    },
+    {
+      "sl_no": 13,
+      "title": "Alumni Interactions and Webinars",
+      "role": "Organizer",
+      "years": ["2019", "2020", "2021", "2022"],
+      "note": "Conducted regularly"
+    },
+    {
+      "sl_no": 14,
+      "title": "Training Sessions on AR/VR",
+      "role": "Organizer",
+      "collaboration": "Info Success 3D (MoU)",
+      "outcome": "Resulted in student publications"
+    }
+  ]
+}
