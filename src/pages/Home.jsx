@@ -20,7 +20,8 @@ export default function Home({ data = {} }) {
   const socialLinks = [
     {
       label: "Facebook",
-      href: socials.facebook || "https://facebook.com/",
+      href:
+        socials.facebook || "https://www.facebook.com/randhawa.prinncy/",
       color: "#1877F2",
       icon: (
         <svg
@@ -76,8 +77,8 @@ export default function Home({ data = {} }) {
 
   return (
     <div className="bg-white text-white">
-      <section className="bg-black px-6 pt-8 pb-4 md:pt-10 md:pb-6">
-        <div className="mx-auto max-w-2xl text-white px-6 py-8 md:px-8 md:py-9 flex flex-col items-center text-center gap-5">
+      <section className="bg-black px-4 pt-6 sm:px-6 sm:pt-8">
+        <div className="mx-auto w-full max-w-2xl text-white px-4 py-8 sm:px-6 sm:py-9 flex flex-col items-center text-center gap-5">
           <img
             src={about.photo || profilePhoto}
             alt={name}
@@ -85,11 +86,11 @@ export default function Home({ data = {} }) {
           />
 
           <div className="space-y-5 w-full">
-            <h1 className="text-3xl md:text-4xl font-heading leading-tight text-[#026559]">
+            <h1 className="text-3xl sm:text-4xl font-heading leading-tight text-[#026559]">
               {name}
             </h1>
-            <p className="text-lg md:text-xl text-slate-200">{title}</p>
-            <p className="text-base md:text-lg text-slate-200 leading-relaxed">
+            <p className="text-base sm:text-lg text-slate-200">{title}</p>
+            <p className="text-sm sm:text-base text-slate-200 leading-relaxed">
               {blurb}
             </p>
             <div className="flex flex-wrap justify-center gap-4 pt-2">
@@ -111,11 +112,11 @@ export default function Home({ data = {} }) {
           </div>
         </div>
       </section>
-      <section className="relative isolate flex min-h-[60vh] items-start justify-center overflow-hidden bg-black px-0 py-3 sm:px-6">
+      <section className="relative isolate flex items-start justify-center overflow-hidden bg-black px-0 py-4 sm:px-6">
         <div className="absolute inset-0 -z-10 bg-black" aria-hidden="true" />
 
         <div className="relative w-full pb-0">
-          <div className="w-full overflow-hidden px-0 py-2">
+          <div className="w-full overflow-hidden px-0 py-0">
             <div
               className="flex min-w-max items-center gap-12 animate-carousel"
               style={{ animationDuration: carouselDuration }}
@@ -123,7 +124,7 @@ export default function Home({ data = {} }) {
               {marqueeImages.map((src, idx) => (
                 <div
                   key={`${src}-${idx}`}
-                  className="h-[40rem] w-[22rem] flex-none overflow-hidden rounded-[3.5rem] flex items-center justify-center"
+                  className="flex-none overflow-hidden rounded-[2.5rem] flex items-center justify-center w-[85vw] h-[24rem] sm:w-[18rem] sm:h-[32rem] lg:w-[22rem] lg:h-[38rem]"
                 >
                   <img
                     src={src}
