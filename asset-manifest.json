@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/princyrandhawa25/princy-portfolio1/static/css/main.4465bf3c.css",
-    "main.js": "/princyrandhawa25/princy-portfolio1/static/js/main.1ed7db95.js",
-    "static/js/453.4661d3e9.chunk.js": "/princyrandhawa25/princy-portfolio1/static/js/453.4661d3e9.chunk.js",
-    "static/media/p4.jpg": "/princyrandhawa25/princy-portfolio1/static/media/p4.4fd5023bbd41a5bdb1c7.jpg",
-    "static/media/Black & Blue Minimalist Modern Initial Font Logo.png": "/princyrandhawa25/princy-portfolio1/static/media/Black & Blue Minimalist Modern Initial Font Logo.cdb7b032b5e549d14635.png",
-    "static/media/p3.jpg": "/princyrandhawa25/princy-portfolio1/static/media/p3.3d862b5d01ee0cde2a19.jpg",
-    "static/media/p1.jpg": "/princyrandhawa25/princy-portfolio1/static/media/p1.bdda6ebb157054daa800.jpg",
-    "static/media/p2.jpg": "/princyrandhawa25/princy-portfolio1/static/media/p2.80f4a2ad8f79e209e68b.jpg",
-    "static/media/princy_photo.jpg": "/princyrandhawa25/princy-portfolio1/static/media/princy_photo.a018fb79260161538da9.jpg",
-    "index.html": "/princyrandhawa25/princy-portfolio1/index.html",
-    "main.4465bf3c.css.map": "/princyrandhawa25/princy-portfolio1/static/css/main.4465bf3c.css.map",
-    "main.1ed7db95.js.map": "/princyrandhawa25/princy-portfolio1/static/js/main.1ed7db95.js.map",
-    "453.4661d3e9.chunk.js.map": "/princyrandhawa25/princy-portfolio1/static/js/453.4661d3e9.chunk.js.map"
+    "main.css": "/princy-portfolio1/static/css/main.4465bf3c.css",
+    "main.js": "/princy-portfolio1/static/js/main.55824ef0.js",
+    "static/js/453.4661d3e9.chunk.js": "/princy-portfolio1/static/js/453.4661d3e9.chunk.js",
+    "static/media/p4.jpg": "/princy-portfolio1/static/media/p4.4fd5023bbd41a5bdb1c7.jpg",
+    "static/media/Black & Blue Minimalist Modern Initial Font Logo.png": "/princy-portfolio1/static/media/Black & Blue Minimalist Modern Initial Font Logo.cdb7b032b5e549d14635.png",
+    "static/media/p3.jpg": "/princy-portfolio1/static/media/p3.3d862b5d01ee0cde2a19.jpg",
+    "static/media/p1.jpg": "/princy-portfolio1/static/media/p1.bdda6ebb157054daa800.jpg",
+    "static/media/p2.jpg": "/princy-portfolio1/static/media/p2.80f4a2ad8f79e209e68b.jpg",
+    "static/media/princy_photo.jpg": "/princy-portfolio1/static/media/princy_photo.a018fb79260161538da9.jpg",
+    "index.html": "/princy-portfolio1/index.html",
+    "main.4465bf3c.css.map": "/princy-portfolio1/static/css/main.4465bf3c.css.map",
+    "main.55824ef0.js.map": "/princy-portfolio1/static/js/main.55824ef0.js.map",
+    "453.4661d3e9.chunk.js.map": "/princy-portfolio1/static/js/453.4661d3e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4465bf3c.css",
-    "static/js/main.1ed7db95.js"
+    "static/js/main.55824ef0.js"
   ]
 }
