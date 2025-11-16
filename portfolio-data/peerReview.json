@@ -1,0 +1,64 @@
+{
+  "reviewer_for_journals": [
+    {
+      "year": 2021,
+      "domain": "Machine Learning",
+      "journal": "Soft Computing",
+      "rank": "Q1"
+    },
+    {
+      "year": 2021,
+      "domain": "Artificial Intelligence",
+      "journal": "EVOS",
+      "rank": "Q1"
+    },
+    {
+      "year": 2021,
+      "domain": "Machine Learning",
+      "journal": "International Journal of Systems Assurance Engineering and Management",
+      "rank": "Q2"
+    },
+    {
+      "year": 2022,
+      "domain": "Artificial Intelligence",
+      "journal": "MDPI",
+      "rank": "Q2"
+    },
+    {
+      "year": 2021,
+      "domain": "Machine Learning",
+      "journal": "Journal of Intelligent and Fuzzy System",
+      "rank": "Q1"
+    },
+    {
+      "year": 2022,
+      "domain": "Wearable Sensors",
+      "journal": "Sensor Review",
+      "rank": "Emerald-Q2"
+    },
+    {
+      "year": 2023,
+      "domain": "Sensors",
+      "journal": "Biosensors",
+      "rank": "Q2"
+    },
+    {
+      "year": 2024,
+      "domain": "Machine Learning",
+      "journal": "Agriculture",
+      "rank": "Q2"
+    },
+    {
+      "year": 2024,
+      "domain": "Machine Learning",
+      "journal": "Soft Computing",
+      "rank": "Q1"
+    },
+    {
+      "year": 2024,
+      "domain": "Machine Learning",
+      "journal": "Agriculture",
+      "rank": "Q2"
+    }
+  ]
+}
