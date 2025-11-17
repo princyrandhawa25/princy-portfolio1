@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.17733f15.css",
-    "main.js": "/static/js/main.bd40d232.js",
+    "main.css": "/static/css/main.dc568502.css",
+    "main.js": "/static/js/main.833fbe7f.js",
     "static/js/453.d7d8c901.chunk.js": "/static/js/453.d7d8c901.chunk.js",
     "static/media/p4.jpg": "/static/media/p4.4fd5023bbd41a5bdb1c7.jpg",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.26 (2).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.26 (2).49cd5a8fe1a04d29b1c7.jpeg",
@@ -28,6 +28,7 @@
     "static/media/WhatsApp Image 2025-11-17 at 07.08.22.jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.08.22.bd2bba97486fd7d83323.jpeg",
     "static/media/Black & Blue Minimalist Modern Initial Font Logo.png": "/static/media/Black & Blue Minimalist Modern Initial Font Logo.cdb7b032b5e549d14635.png",
     "static/media/WhatsApp Image 2025-11-17 at 07.08.29 (2).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.08.29 (2).d4f5eee999e3eb3fbfb6.jpeg",
+    "static/media/world-map-colored.jpg": "/static/media/world-map-colored.8745f0231da500648d01.jpg",
     "static/media/WhatsApp Image 2025-11-17 at 07.08.29.jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.08.29.ccb57b56623f0748f0ba.jpeg",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.21 (1).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.21 (1).bf84430c578ad2a1c2fa.jpeg",
     "static/media/WhatsApp Image 2025-11-17 at 07.08.27 (2).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.08.27 (2).7bc4ef4c41d42606e49e.jpeg",
@@ -49,7 +50,6 @@
     "static/media/WhatsApp Image 2025-11-17 at 07.08.27.jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.08.27.cee13e4bae4ff34e3373.jpeg",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.26 (1).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.26 (1).71cfacfbeef974b09ed1.jpeg",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.22.jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.22.ae3328f04a5fec7d0d7b.jpeg",
-    "static/media/world-map-colored.png": "/static/media/world-map-colored.373b880551b047f0f427.png",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.24 (1).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.24 (1).0086ac245832fd1d2462.jpeg",
     "static/media/p3.jpg": "/static/media/p3.3d862b5d01ee0cde2a19.jpg",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.26 (3).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.26 (3).5c4278390204a13f61ec.jpeg",
@@ -66,12 +66,12 @@
     "static/media/WhatsApp Image 2025-11-17 at 07.02.22 (1).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.22 (1).e34f8aeef7ac5a4ebb80.jpeg",
     "static/media/princy_photo.jpg": "/static/media/princy_photo.a018fb79260161538da9.jpg",
     "index.html": "/index.html",
-    "main.17733f15.css.map": "/static/css/main.17733f15.css.map",
-    "main.bd40d232.js.map": "/static/js/main.bd40d232.js.map",
+    "main.dc568502.css.map": "/static/css/main.dc568502.css.map",
+    "main.833fbe7f.js.map": "/static/js/main.833fbe7f.js.map",
     "453.d7d8c901.chunk.js.map": "/static/js/453.d7d8c901.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17733f15.css",
-    "static/js/main.bd40d232.js"
+    "static/css/main.dc568502.css",
+    "static/js/main.833fbe7f.js"
   ]
 }
