@@ -1,0 +1,52 @@
+{
+  "academic_and_research_committees": [
+    {
+      "role": "Convener",
+      "event": "IEEE International Conference on Augmented Reality, Intelligent System and Industrial Automation (ARIIA)",
+      "date": "20-21 December 2024",
+      "location": "MIT Manipal"
+    },
+    {
+      "role": "Technical Program Committee",
+      "event": "International Conference on Electronics, AI & Robotics",
+      "date": "15–17 July 2025",
+      "location": "Sungkyunkwan University, Republic of Korea"
+    },
+    {
+      "role": "Session Chair",
+      "event": "International Conference on Mathematical Modeling in Computational Intelligence & GenAI (MATH-CIGAI 2025)",
+      "date": "17–18 July 2025",
+      "location": "KL University, Hyderabad"
+    },
+    {
+      "role": "Session Chair",
+      "event": "International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2025)",
+      "date": "21–22 March 2025",
+      "location": "Poornima University, Jaipur"
+    },
+    {
+      "role": "Session Chair",
+      "event": "Leveraging Traditional and Cultural Knowledge for the Sustainable Development of Tribal Communities in Chattisgarh",
+      "date": "28 February 2025",
+      "location": "Jawaharlal Nehru University (JNU), New Delhi"
+    },
+    {
+      "role": "Founder Member & Organizing Technical Committee Member",
+      "event": "International Conference on Intelligent Systems and Machine Learning (ICISML)",
+      "date": "15–16 May 2025",
+      "location": "NIT Meghalaya"
+    },
+    {
+      "role": "Organizing Committee Member",
+      "event": "International Conference on Artificial Intelligence, Computation, Communication, and Network Security",
+      "date": "4–7 July 2025",
+      "location": "University of Wollongong, Dubai"
+    },
+    {
+      "role": "Committee Member",
+      "event": "ICSSR-Supported International Conference under Vision Viksit Bharat @ 2047: Assessing the Potential of Agri Tech Startup Ecosystem for Young Innovators in India",
+      "date": "21 February 2025",
+      "location": "Maharaja Agrasen College, University of Delhi"
+    }
+  ]
+}
