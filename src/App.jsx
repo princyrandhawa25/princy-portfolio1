@@ -17,6 +17,7 @@ import PeerReviewPage from "./pages/PeerReviewPage";
 import PatentsPage from "./pages/PatentsPage";
 import GalleryPage from "./pages/GalleryPage";
 import CountriesPage from "./pages/CountriesPage";
+import CommitteesPage from "./pages/CommitteesPage";
 import Footer from "./components/Footer";
 import { fetchPortfolioData, defaultData } from "./data/githubData";
 
@@ -73,6 +74,8 @@ function App() {
           <PatentsPage />
         ) : route === "/certifications" ? (
           <CertificationsPage data={data} />
+        ) : route === "/committees" ? (
+          <CommitteesPage />
         ) : route === "/gallery" ? (
           <GalleryPage />
         ) : route === "/countries" ? (

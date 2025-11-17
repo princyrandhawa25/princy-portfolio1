@@ -10,6 +10,7 @@ const navLinks = [
 ];
 
 const menuLinks = [
+  { label: "Committees", href: "#/committees" },
   { label: "Academics", href: "#/academics" },
   { label: "Patents", href: "#/patents" },
   { label: "Funding", href: "#/funding" },
