@@ -1,9 +1,19 @@
 import profilePhoto from "../assets/princy_photo.jpg";
-import slideOne from "../assets/p1.jpg";
-import slideTwo from "../assets/p2.jpg";
-import slideThree from "../assets/p3.jpg";
-import slideFour from "../assets/p4.jpg";
 import TravelMap from "../components/TravelMap";
+
+const loadCarouselImages = () => {
+  try {
+    const context = require.context(
+      "../assets/carousal_images",
+      false,
+      /\.(png|jpe?g|svg)$/
+    );
+    return context.keys().map((key) => context(key));
+  } catch (error) {
+    console.error("Failed to load carousel images", error);
+    return [];
+  }
+};
 
 export default function Home({ data = {} }) {
   const about = data.about || {};
@@ -71,8 +81,10 @@ export default function Home({ data = {} }) {
       ),
     },
   ];
-  const slides = [slideOne, slideTwo, slideThree, slideFour].filter(Boolean);
-  const heroImages = slides.length ? slides : [about.photo || profilePhoto];
+  const carouselImages = loadCarouselImages();
+  const heroImages = carouselImages.length
+    ? carouselImages
+    : [about.photo || profilePhoto];
   const marqueeImages = [...heroImages, ...heroImages];
   const carouselDuration = `${Math.max(heroImages.length, 4) * 5}s`;
 
@@ -125,12 +137,12 @@ export default function Home({ data = {} }) {
               {marqueeImages.map((src, idx) => (
                 <div
                   key={`${src}-${idx}`}
-                  className="flex-none overflow-hidden rounded-[2.5rem] flex items-center justify-center w-[85vw] h-[24rem] sm:w-[18rem] sm:h-[32rem] lg:w-[22rem] lg:h-[38rem]"
+                  className="flex-none overflow-hidden rounded-[2.5rem] flex items-center justify-center w-[85vw] h-[22rem] sm:w-[20rem] sm:h-[28rem] lg:w-[24rem] lg:h-[32rem] xl:w-[26rem] xl:h-[34rem]"
                 >
                   <img
                     src={src}
                     alt={`Research carousel ${idx + 1}`}
-                    className="h-full w-full object-contain"
+                    className="h-full w-full object-cover"
                     draggable={false}
                   />
                 </div>

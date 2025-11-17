@@ -158,8 +158,6 @@ const Academics = () => {
                   <th className="px-4 py-3">#</th>
                   <th className="px-4 py-3">Academic Year</th>
                   <th className="px-4 py-3">Courses / Subjects</th>
-                  <th className="px-4 py-3">Students / Batch</th>
-                  <th className="px-4 py-3">Feedback</th>
                 </tr>
               </thead>
               <tbody>
@@ -183,17 +181,6 @@ const Academics = () => {
                           course.course ||
                           "—"}
                       </div>
-                    </td>
-                    <td className="px-4 py-4 text-white/80">
-                      {course.no_of_students_per_batch ||
-                        course.students ||
-                        course.batch ||
-                        "—"}
-                    </td>
-                    <td className="px-4 py-4 text-white/80">
-                      {renderCommaSeparated(
-                        course.student_feedback || course.feedback || ""
-                      )}
                     </td>
                   </tr>
                 ))}
