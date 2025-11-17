@@ -10,7 +10,7 @@
       "academic_year": "2023-2024",
       "name_of_the_subject": "Machine Learning, Machine Vision",
       "no_of_students_per_batch": "13,9,17,27",
-      "student_feedback": "4.9/5,4.7/5"
+      "student_feedback": ""
     },
     {
       "academic_year": "2022-2023",
@@ -23,12 +23,6 @@
       "academic_year": "2021-2022,2019-2020,2020-2021",
       "name_of_the_subject": "Artificial Intelligence, Control Systems,Virtual Instrumentation",
       "no_of_students_per_batch": "14",
-      "student_feedback": ""
-    },
-     {
-      "academic_year": "",
-      "name_of_the_subject": "IoT System, Control System",
-      "no_of_students_per_batch": "",
       "student_feedback": ""
     },
      {
