@@ -50,7 +50,7 @@ const Workshops = () => {
       <h2 className="text-2xl font-heading text-[#B46A3C] border-b-4 border-[#B46A3C] inline-block pb-1">
         Workshops &amp; Conferences Organized
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {workshops.map((ws, index) => {
           const title = ws.title || ws.name || ws.event;
           const role = ws.role || ws.position;
