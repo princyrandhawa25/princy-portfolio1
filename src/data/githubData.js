@@ -69,6 +69,19 @@ export const fetchData = async (fileName) => {
   }
 };
 
+export const fetchText = async (fileName) => {
+  try {
+    if (!fileName) throw new Error("No file name provided");
+    const url = `${GITHUB_BASE_URL}${fileName}?t=${Date.now()}`;
+    const res = await fetch(url, { cache: "no-store" });
+    if (!res.ok) throw new Error(`Failed to fetch ${fileName}`);
+    return await res.text();
+  } catch (error) {
+    console.error(`Error fetching ${fileName} as text from GitHub:`, error);
+    return null;
+  }
+};
+
 export const fetchPortfolioData = async () => {
   // Fetch individual files as needed; start with about.json
   const aboutRaw = await fetchData("about.json");

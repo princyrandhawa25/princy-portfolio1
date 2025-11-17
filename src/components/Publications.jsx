@@ -7,11 +7,13 @@ const Publications = ({
   sectionId = "publications",
   filterType,
   dataSource = "publications.json",
+  autoLoad = true,
 }) => {
   const [items, setItems] = useState(Array.isArray(data) ? data : []);
 
   useEffect(() => {
     if (!Array.isArray(data) || data.length === 0) {
+      if (!autoLoad || !dataSource) return;
       fetchData(dataSource).then((d) => {
         if (Array.isArray(d)) {
           setItems(d);
@@ -20,7 +22,7 @@ const Publications = ({
     } else {
       setItems(data);
     }
-  }, [data, dataSource]);
+  }, [data, dataSource, autoLoad]);
 
   const norm = useCallback(
     (p) => {
@@ -78,12 +80,13 @@ const Publications = ({
         doiUrl,
         link,
         pdf,
+        details: p.details || "",
       };
     },
     [filterType]
   );
 
-  // ✅ Added 'norm' to dependency array to satisfy ESLint
+  // Note: Added 'norm' to dependency array to satisfy ESLint
   const sorted = useMemo(() => {
     const withNorm = (items || []).map((p) => ({ raw: p, ...norm(p) }));
     withNorm.sort((a, b) => {
@@ -127,75 +130,82 @@ const Publications = ({
             <div key={year} className="space-y-4">
               <h3 className="text-xl font-heading text-primary">{year}</h3>
               <ul className="space-y-4">
-                {list.map((p, i) => (
-                  <li
-                    key={`${year}-${i}`}
-                    className="p-5 bg-[#1a1f23] text-white rounded-lg shadow border-l-4 border-primary"
-                  >
-                    <div className="flex flex-wrap items-start justify-between gap-3">
-                      <div className="min-w-0">
-                        <div className="flex items-center gap-2 flex-wrap">
-                          {p.type && (
-                            <span className="text-xs uppercase tracking-wide px-2 py-0.5 border border-primary text-white rounded">
-                              {p.type}
-                            </span>
+                {list.map((p, i) => {
+                  const meta = (() => {
+                    const parts = [];
+                    if (p.venue) parts.push(p.venue);
+                    if (p.volumeIssuePages) {
+                      parts.push(p.volumeIssuePages);
+                    } else {
+                      if (p.volume) parts.push(`Vol ${p.volume}`);
+                      if (p.issue) parts.push(`(${p.issue})`);
+                      if (p.pages) parts.push(p.pages);
+                    }
+                    if (p.articleId) parts.push(`ID: ${p.articleId}`);
+                    return parts.filter(Boolean).join(", ");
+                  })();
+
+                  return (
+                    <li
+                      key={`${year}-${i}`}
+                      className="p-5 bg-[#1a1f23] text-white rounded-lg shadow border-l-4 border-primary"
+                    >
+                      <div className="flex flex-wrap items-start justify-between gap-3">
+                        <div className="min-w-0">
+                          <div className="flex items-center gap-2 flex-wrap">
+                            {p.type && (
+                              <span className="text-xs uppercase tracking-wide px-2 py-0.5 border border-primary text-white rounded">
+                                {p.type}
+                              </span>
+                            )}
+                            <h4 className="font-semibold text-white">{p.title}</h4>
+                          </div>
+                          {p.authors && p.authors.length > 0 && (
+                            <p className="text-sm text-white">{p.authors.join(", ")}</p>
                           )}
-                          <h4 className="font-semibold text-white">{p.title}</h4>
+                          {meta && <p className="text-white">{meta}</p>}
+                          {p.details && (
+                            <p className="text-sm text-white/80 whitespace-pre-line mt-2">
+                              {p.details}
+                            </p>
+                          )}
                         </div>
-                        {p.authors && p.authors.length > 0 && (
-                          <p className="text-sm text-white">{p.authors.join(", ")}</p>
-                        )}
-                        <p className="text-white">
-                          {(() => {
-                            const parts = [];
-                            if (p.venue) parts.push(p.venue);
-                            if (p.volumeIssuePages) {
-                              parts.push(p.volumeIssuePages);
-                            } else {
-                              if (p.volume) parts.push(`Vol ${p.volume}`);
-                              if (p.issue) parts.push(`(${p.issue})`);
-                              if (p.pages) parts.push(p.pages);
-                            }
-                            if (p.articleId) parts.push(`ID: ${p.articleId}`);
-                            return parts.filter(Boolean).join(", ");
-                          })()}
-                        </p>
+                        <div className="flex items-center gap-3 shrink-0">
+                          {p.doiUrl && (
+                            <a
+                              href={p.doiUrl}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="underline text-sm text-white"
+                            >
+                              DOI
+                            </a>
+                          )}
+                          {p.pdf && (
+                            <a
+                              href={p.pdf}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="underline text-sm text-white"
+                            >
+                              PDF
+                            </a>
+                          )}
+                          {p.link && (
+                            <a
+                              href={p.link}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="underline text-sm text-white"
+                            >
+                              Link
+                            </a>
+                          )}
+                        </div>
                       </div>
-                      <div className="flex items-center gap-3 shrink-0">
-                        {p.doiUrl && (
-                          <a
-                            href={p.doiUrl}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="underline text-sm text-white"
-                          >
-                            DOI
-                          </a>
-                        )}
-                        {p.pdf && (
-                          <a
-                            href={p.pdf}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="underline text-sm text-white"
-                          >
-                            PDF
-                          </a>
-                        )}
-                        {p.link && (
-                          <a
-                            href={p.link}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="underline text-sm text-white"
-                          >
-                            Link
-                          </a>
-                        )}
-                      </div>
-                    </div>
-                  </li>
-                ))}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}
