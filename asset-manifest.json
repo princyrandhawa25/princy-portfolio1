@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4465bf3c.css",
-    "main.js": "/static/js/main.9262ebd3.js",
+    "main.css": "/static/css/main.0d843257.css",
+    "main.js": "/static/js/main.3dfb3260.js",
     "static/js/453.4661d3e9.chunk.js": "/static/js/453.4661d3e9.chunk.js",
     "static/media/p4.jpg": "/static/media/p4.4fd5023bbd41a5bdb1c7.jpg",
     "static/media/Black & Blue Minimalist Modern Initial Font Logo.png": "/static/media/Black & Blue Minimalist Modern Initial Font Logo.cdb7b032b5e549d14635.png",
@@ -10,12 +10,12 @@
     "static/media/p2.jpg": "/static/media/p2.80f4a2ad8f79e209e68b.jpg",
     "static/media/princy_photo.jpg": "/static/media/princy_photo.a018fb79260161538da9.jpg",
     "index.html": "/index.html",
-    "main.4465bf3c.css.map": "/static/css/main.4465bf3c.css.map",
-    "main.9262ebd3.js.map": "/static/js/main.9262ebd3.js.map",
+    "main.0d843257.css.map": "/static/css/main.0d843257.css.map",
+    "main.3dfb3260.js.map": "/static/js/main.3dfb3260.js.map",
     "453.4661d3e9.chunk.js.map": "/static/js/453.4661d3e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4465bf3c.css",
-    "static/js/main.9262ebd3.js"
+    "static/css/main.0d843257.css",
+    "static/js/main.3dfb3260.js"
   ]
 }
