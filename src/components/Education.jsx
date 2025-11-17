@@ -3,11 +3,9 @@ import { fetchData } from "../data/githubData";
 
 const fallbackEducation = [
   {
-    date: "Dec 2025 (Expected)",
-    degree: "PhD",
+    date: "Dec 2025",
+    degree: "AIC PG Certification",
     specialization: "AI-Powered Computer Vision",
-    thesis:
-      "Design and Development of Smart Jacket for the Classification of Violent Motion using ML Techniques",
     institution: "NIT Warangal",
   },
   {
@@ -18,8 +16,10 @@ const fallbackEducation = [
   },
   {
     date: "Feb 2021",
-    degree: "AICTE PG Certification",
-    institution: "AICTE",
+    degree: "PhD",
+    specialization:
+      "Design and Development of Smart Jacket for the classification of Violent Motion using ML techniques",
+    institution: "Manipal University Jaipur, Jaipur, Rajasthan, India",
   },
   {
     date: "Apr 2013",
@@ -41,8 +41,14 @@ const Education = () => {
 
   useEffect(() => {
     fetchData("education.json").then((data) => {
-      if (Array.isArray(data) && data.length) {
-        setEducation(data);
+      const normalizedEducation = Array.isArray(data)
+        ? data
+        : Array.isArray(data?.education)
+        ? data.education
+        : [];
+
+      if (normalizedEducation.length) {
+        setEducation(normalizedEducation);
       }
     });
   }, []);
@@ -70,11 +76,11 @@ const Education = () => {
           >
             <h3 className="font-semibold text-white">
               {edu.degree}
-              {edu.specialization ? ` · ${edu.specialization}` : ""}
+              {edu.specialization ? ` - ${edu.specialization}` : ""}
             </h3>
             <p className="text-white/90 leading-relaxed">
               <strong>{edu.institution}</strong>
-              {edu.date ? ` · ${edu.date}` : ""}
+              {edu.date ? ` - ${edu.date}` : ""}
             </p>
             {edu.thesis && (
               <p className="mt-2 text-sm text-white/80">
