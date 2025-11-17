@@ -1,31 +1,31 @@
-import worldMap from "../assets/world-map-colored.png";
+import worldMap from "../assets/world-map-colored.jpg";
 
 const mapMarkers = [
-  { label: "Italy – Rome & Milan", top: "42%", left: "49%", flag: "🇮🇹" },
-  { label: "Malta", top: "49%", left: "53%", flag: "🇲🇹" },
-  { label: "Singapore", top: "63%", left: "71%", flag: "🇸🇬" },
-  { label: "Malaysia", top: "58%", left: "68%", flag: "🇲🇾" },
-  { label: "London, United Kingdom", top: "40%", left: "46%", flag: "🇬🇧" },
+  { label: "London, United Kingdom", top: "39%", left: "45%", flag: "🇬🇧" },
+  { label: "Italy – Rome & Milan", top: "43%", left: "49%", flag: "🇮🇹" },
+  { label: "Switzerland", top: "42%", left: "50%", flag: "🇨🇭" },
+  { label: "Malta", top: "46%", left: "50%", flag: "🇲🇹" },
+  { label: "Dubai, United Arab Emirates", top: "52%", left: "56%", flag: "🇦🇪" },
+  { label: "Singapore", top: "63%", left: "70%", flag: "🇸🇬" },
+  { label: "Malaysia", top: "60%", left: "69%", flag: "🇲🇾" },
   {
     label: "Australia – Brisbane, Sydney, Melbourne",
-    top: "78%",
-    left: "82%",
+    top: "76%",
+    left: "84%",
     flag: "🇦🇺",
   },
-  { label: "Dubai, United Arab Emirates", top: "53%", left: "58%", flag: "🇦🇪" },
-  { label: "Switzerland", top: "41%", left: "52%", flag: "🇨🇭" },
-  { label: "South Korea", top: "46%", left: "79%", flag: "🇰🇷" },
+  { label: "South Korea", top: "45%", left: "79%", flag: "🇰🇷" },
 ];
 
 const TravelMap = () => (
-  <div className="bg-gradient-to-br from-[#050b0f] via-[#0f1c24] to-[#050b0f] border border-primary/20 rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.6)] overflow-hidden">
+  <div className="bg-gradient-to-br from-white via-[#f4f7fb] to-white border border-primary/20 rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.35)] overflow-hidden">
     <div className="relative aspect-[7/3] w-full">
       <div
-        className="absolute -left-10 top-1/2 h-72 w-72 -translate-y-1/2 rounded-full bg-[#B46A3C]/40 blur-3xl opacity-60"
+        className="absolute -left-10 top-1/2 h-72 w-72 -translate-y-1/2 rounded-full bg-[#F5C9B4]/70 blur-3xl opacity-70"
         aria-hidden="true"
       />
       <div
-        className="absolute -right-8 top-1/3 h-64 w-64 rounded-full bg-cyan-400/40 blur-3xl opacity-70"
+        className="absolute -right-8 top-1/3 h-64 w-64 rounded-full bg-cyan-200/70 blur-3xl opacity-80"
         aria-hidden="true"
       />
       <img
@@ -35,7 +35,7 @@ const TravelMap = () => (
         loading="lazy"
       />
       <div
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(0,0,0,0.35),_transparent_45%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.55),_transparent_45%)]"
         aria-hidden="true"
       />
       {mapMarkers.map((marker) => (

@@ -142,11 +142,45 @@ export default function Home({ data = {} }) {
       <section className="bg-black px-4 py-10 sm:px-6">
         <div className="mx-auto max-w-6xl space-y-6">
           <div className="text-center text-white">
-            <p className="text-lg font-semibold tracking-[0.4em] uppercase text-white">
-              GLOBAL FOOT PRINTS
+            <p className="text-2xl sm:text-3xl font-bold tracking-[0.4em] uppercase text-white">
+              GLOBAL FOOTPRINTS
             </p>
           </div>
-          <TravelMap />
+          <div className="mt-6">
+            <TravelMap />
+          </div>
+          <div className="grid gap-8 md:grid-cols-3 text-white">
+            <div className="space-y-3">
+              <h3 className="text-xl font-heading border-b border-white/20 pb-2">
+                Europe (4)
+              </h3>
+              <ul className="space-y-2 text-white/80">
+                <li>Italy (Rome, Milan)</li>
+                <li>Malta</li>
+                <li>London (UK)</li>
+                <li>Switzerland</li>
+              </ul>
+            </div>
+            <div className="space-y-3">
+              <h3 className="text-xl font-heading border-b border-white/20 pb-2">
+                Asia (4)
+              </h3>
+              <ul className="space-y-2 text-white/80">
+                <li>Singapore</li>
+                <li>Malaysia</li>
+                <li>Dubai (UAE)</li>
+                <li>South Korea</li>
+              </ul>
+            </div>
+            <div className="space-y-3">
+              <h3 className="text-xl font-heading border-b border-white/20 pb-2">
+                Australia / Oceania (1)
+              </h3>
+              <p className="text-white/80">
+                Australia (Brisbane, Sydney, Melbourne)
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </div>
