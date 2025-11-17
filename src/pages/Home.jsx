@@ -3,6 +3,7 @@ import slideOne from "../assets/p1.jpg";
 import slideTwo from "../assets/p2.jpg";
 import slideThree from "../assets/p3.jpg";
 import slideFour from "../assets/p4.jpg";
+import TravelMap from "../components/TravelMap";
 
 export default function Home({ data = {} }) {
   const about = data.about || {};
@@ -136,6 +137,16 @@ export default function Home({ data = {} }) {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+      <section className="bg-black px-4 py-10 sm:px-6">
+        <div className="mx-auto max-w-6xl space-y-6">
+          <div className="text-center text-white">
+            <p className="text-lg font-semibold tracking-[0.4em] uppercase text-white">
+              GLOBAL FOOT PRINTS
+            </p>
+          </div>
+          <TravelMap />
         </div>
       </section>
     </div>

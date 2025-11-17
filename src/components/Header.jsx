@@ -20,6 +20,7 @@ const menuLinks = [
   { label: "Guest Editor", href: "#/guest-editor" },
   { label: "Invited Talks", href: "#/invited-talks" },
   { label: "Others", href: "#/others" },
+  { label: "My Travel Map", href: "#/countries" },
   { label: "Gallery", href: "#/gallery" },
 ];
 
