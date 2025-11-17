@@ -1,52 +1,80 @@
 {
-  "academic_and_research_committees": [
+  "courses taught": [
     {
-      "role": "Convener",
-      "event": "IEEE International Conference on Augmented Reality, Intelligent System and Industrial Automation (ARIIA)",
-      "date": "20-21 December 2024",
-      "location": "MIT Manipal"
+      "academic_year": "2024-2025",
+      "name_of_the_subject": "Computer Vision,Problem Solving Using Computers",
+      "no_of_students_per_batch": "360",
+      "student_feedback": "4.6,4.7,4.9/5,4.7/5"
     },
     {
-      "role": "Technical Program Committee",
-      "event": "International Conference on Electronics, AI & Robotics",
-      "date": "15–17 July 2025",
-      "location": "Sungkyunkwan University, Republic of Korea"
+      "academic_year": "2023-2024",
+      "name_of_the_subject": "Machine Learning, Machine Vision",
+      "no_of_students_per_batch": "13,9,17,27",
+      "student_feedback": "4.9/5,4.7/5"
     },
     {
-      "role": "Session Chair",
-      "event": "International Conference on Mathematical Modeling in Computational Intelligence & GenAI (MATH-CIGAI 2025)",
-      "date": "17–18 July 2025",
-      "location": "KL University, Hyderabad"
+      "academic_year": "2022-2023",
+      "name_of_the_subject": "IoT System, Control System",
+      "no_of_students_per_batch": "8,59",
+      "student_feedback": "4.4/5"
     },
+    
     {
-      "role": "Session Chair",
-      "event": "International Conference on Sustainable Computing and Intelligent Systems (ICSCIS 2025)",
-      "date": "21–22 March 2025",
-      "location": "Poornima University, Jaipur"
+      "academic_year": "2021-2022,2019-2020,2020-2021",
+      "name_of_the_subject": "Artificial Intelligence, Control Systems,Virtual Instrumentation",
+      "no_of_students_per_batch": "14",
+      "student_feedback": ""
     },
-    {
-      "role": "Session Chair",
-      "event": "Leveraging Traditional and Cultural Knowledge for the Sustainable Development of Tribal Communities in Chattisgarh",
-      "date": "28 February 2025",
-      "location": "Jawaharlal Nehru University (JNU), New Delhi"
+     {
+      "academic_year": "",
+      "name_of_the_subject": "IoT System, Control System",
+      "no_of_students_per_batch": "",
+      "student_feedback": ""
     },
-    {
-      "role": "Founder Member & Organizing Technical Committee Member",
-      "event": "International Conference on Intelligent Systems and Machine Learning (ICISML)",
-      "date": "15–16 May 2025",
-      "location": "NIT Meghalaya"
+     {
+      "academic_year": "2021-2022,2020-2021,2019-2020",
+      "name_of_the_subject": "Biomedical Instrumentation",
+      "no_of_students_per_batch": "17,28,35",
+      "student_feedback": "4.7,4.3"
     },
-    {
-      "role": "Organizing Committee Member",
-      "event": "International Conference on Artificial Intelligence, Computation, Communication, and Network Security",
-      "date": "4–7 July 2025",
-      "location": "University of Wollongong, Dubai"
+     {
+      "academic_year": "2021-2022,2022-2023",
+      "name_of_the_subject": "IoT System",
+      "no_of_students_per_batch": "12,27",
+      "student_feedback": ""
     },
-    {
-      "role": "Committee Member",
-      "event": "ICSSR-Supported International Conference under Vision Viksit Bharat @ 2047: Assessing the Potential of Agri Tech Startup Ecosystem for Young Innovators in India",
-      "date": "21 February 2025",
-      "location": "Maharaja Agrasen College, University of Delhi"
-    }
+     {
+      "academic_year": "2020-2021,2019-2020,2018-2019",
+      "name_of_the_subject": "Modern Control System",
+      "no_of_students_per_batch": "10,21,32",
+      "student_feedback": "4.1,4.3"
+    },
+     {
+      "academic_year": "2020-2021",
+      "name_of_the_subject": "Introduction to Robotics",
+      "no_of_students_per_batch": "35",
+      "student_feedback": ""
+    },
+     {
+      "academic_year": "2018-2019",
+      "name_of_the_subject": "Digital System Design",
+      "no_of_students_per_batch":4.3, "52",
+      "student_feedback": "4,2"
+    },
+     {
+      "academic_year": "2018-2019",
+      "name_of_the_subject": "Electronic Measurement and Instrumentation",
+      "no_of_students_per_batch": "52",
+      "student_feedback": "4.4"
+    },
+     {
+      "academic_year": "2018-2019",
+      "name_of_the_subject": "Intelligent Controller",
+      "no_of_students_per_batch": "06",
+      "student_feedback": ""
+    },
+    
+  
+
   ]
 }
