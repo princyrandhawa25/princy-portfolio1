@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.51f66029.css",
-    "main.js": "/static/js/main.c55fe2e0.js",
+    "main.css": "/static/css/main.17733f15.css",
+    "main.js": "/static/js/main.bd40d232.js",
     "static/js/453.d7d8c901.chunk.js": "/static/js/453.d7d8c901.chunk.js",
     "static/media/p4.jpg": "/static/media/p4.4fd5023bbd41a5bdb1c7.jpg",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.26 (2).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.26 (2).49cd5a8fe1a04d29b1c7.jpeg",
@@ -49,6 +49,7 @@
     "static/media/WhatsApp Image 2025-11-17 at 07.08.27.jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.08.27.cee13e4bae4ff34e3373.jpeg",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.26 (1).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.26 (1).71cfacfbeef974b09ed1.jpeg",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.22.jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.22.ae3328f04a5fec7d0d7b.jpeg",
+    "static/media/world-map-colored.png": "/static/media/world-map-colored.373b880551b047f0f427.png",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.24 (1).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.24 (1).0086ac245832fd1d2462.jpeg",
     "static/media/p3.jpg": "/static/media/p3.3d862b5d01ee0cde2a19.jpg",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.26 (3).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.26 (3).5c4278390204a13f61ec.jpeg",
@@ -65,12 +66,12 @@
     "static/media/WhatsApp Image 2025-11-17 at 07.02.22 (1).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.22 (1).e34f8aeef7ac5a4ebb80.jpeg",
     "static/media/princy_photo.jpg": "/static/media/princy_photo.a018fb79260161538da9.jpg",
     "index.html": "/index.html",
-    "main.51f66029.css.map": "/static/css/main.51f66029.css.map",
-    "main.c55fe2e0.js.map": "/static/js/main.c55fe2e0.js.map",
+    "main.17733f15.css.map": "/static/css/main.17733f15.css.map",
+    "main.bd40d232.js.map": "/static/js/main.bd40d232.js.map",
     "453.d7d8c901.chunk.js.map": "/static/js/453.d7d8c901.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51f66029.css",
-    "static/js/main.c55fe2e0.js"
+    "static/css/main.17733f15.css",
+    "static/js/main.bd40d232.js"
   ]
 }
