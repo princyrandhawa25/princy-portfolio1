@@ -7,7 +7,7 @@ export const defaultData = {
     name: "",
     title: "",
     summary:
-      "Associate Professor in AI/ML, focusing on Machine Learning, Wearable Tech & Control Systems.",
+      "Dr. Princy Randhawa is a passionate Machine learning/AI researcher and educator with over 12 years of experience in teaching and industry. She is an Associate Professor at Dayanand Sagar University and previously worked for a decade in the Mechatronics Engineering Department at Manipal University Jaipur. Her research and teaching span control systems, machine learning, IoT, and data analytics, and she completed her PhD in machine learning for wearable technology. Dr. Randhawa has authored more than 50 publications, including 14 SCI journal papers with seven in Q1. She has led numerous academic and administrative initiatives, serving as Assistant Director of Alumni Relations, program co-coordinator, nodal officer for MoUs, alumni coordinator, ISA faculty advisor, industry connect coordinator, international coordinator, and social media coordinator. A Senior Member of IEEE and member of ISA, she actively supports social causes such as cancer awareness and women's sanitation hygiene programs. She is passionate about applying artificial intelligence for women's safety and empowerment.",
     googleScholar: "",
     photo: "",
   },

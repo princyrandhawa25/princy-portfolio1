@@ -15,6 +15,7 @@ import OthersPage from "./pages/OthersPage";
 import InvitedTalksPage from "./pages/InvitedTalksPage";
 import PeerReviewPage from "./pages/PeerReviewPage";
 import PatentsPage from "./pages/PatentsPage";
+import GalleryPage from "./pages/GalleryPage";
 import Footer from "./components/Footer";
 import { fetchPortfolioData, defaultData } from "./data/githubData";
 
@@ -71,6 +72,8 @@ function App() {
           <PatentsPage />
         ) : route === "/certifications" ? (
           <CertificationsPage data={data} />
+        ) : route === "/gallery" ? (
+          <GalleryPage />
         ) : (
           <Home data={data} />
         )}

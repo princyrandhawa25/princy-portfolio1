@@ -26,15 +26,20 @@ const menuLinks = [
 const Header = ({ currentRoute = "/" }) => {
   const [open, setOpen] = useState(false);
   const navColor = "#026559";
+  const allMenuLinks = [...navLinks, ...menuLinks];
 
-  const NavLink = ({ href, children }) => {
+  const NavLink = ({ href, children, align = "center" }) => {
     const targetRoute = href.replace("#", "");
     const isActive = currentRoute === targetRoute;
+    const alignmentClasses =
+      align === "start"
+        ? "justify-start text-left"
+        : "justify-center text-center";
     return (
       <a
         href={href}
         onClick={() => setOpen(false)}
-        className={`flex items-center justify-center px-4 py-2 rounded-full text-sm uppercase tracking-wide font-semibold transition-colors duration-200 hover:bg-[#026559]/10 focus-visible:bg-[#026559]/10 ${
+        className={`flex items-center ${alignmentClasses} px-4 py-2 rounded-full text-sm uppercase tracking-wide font-semibold transition-colors duration-200 hover:bg-[#026559]/10 focus-visible:bg-[#026559]/10 ${
           isActive ? "text-[#B46A3C]" : ""
         }`}
         style={{ color: isActive ? undefined : navColor }}
@@ -97,9 +102,11 @@ const Header = ({ currentRoute = "/" }) => {
               Menu
             </div>
             <ul className="space-y-3">
-              {menuLinks.map((link) => (
+              {allMenuLinks.map((link) => (
                 <li key={link.href}>
-                  <NavLink href={link.href}>{link.label}</NavLink>
+                  <NavLink href={link.href} align="start">
+                    {link.label}
+                  </NavLink>
                 </li>
               ))}
             </ul>
