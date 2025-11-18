@@ -15,25 +15,18 @@
       "topic": "Women Sanitation & Hygiene"
     },
     {
-      "year": "2019-2020",
-      "note": "No specific activity recorded"
-    },
-    {
-      "year": "2020-2021",
-      "service": [
-        {
+         "year": "2019-2020",
           "role": "Educator",
           "duration": "2 hours (February)",
           "location": "Anuradha BED College",
           "topic": "Women Sanitation & Hygiene"
         },
         {
+          "year": "2020-2021",
           "role": "Educator",
           "duration": "3–4 hours (September)",
           "location": "Ashraya Care Foundation",
           "topic": "COVID-19 Symptoms and Preventions"
         }
-      ]
-    }
   ]
 }
