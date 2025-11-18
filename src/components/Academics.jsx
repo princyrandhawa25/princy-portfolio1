@@ -19,6 +19,56 @@ const normalizeCourses = (payload) => {
   return [];
 };
 
+const normalizeResponsibilities = (payload) => {
+  if (!payload) return [];
+  const source =
+    payload.additional_responsibilities ||
+    payload.additionalResponsibilities ||
+    payload.responsibilities ||
+    payload.additional_roles ||
+    payload.additionalRoles ||
+    [];
+
+  if (Array.isArray(source)) {
+    return source
+      .map((entry, index) => {
+        if (!entry) return null;
+        if (typeof entry === "string") {
+          return { title: `Responsibility ${index + 1}`, items: [entry] };
+        }
+        if (typeof entry === "object") {
+          const title =
+            entry.title ||
+            entry.role ||
+            entry.position ||
+            `Responsibility ${index + 1}`;
+          const details = entry.items || entry.details;
+          const items = Array.isArray(details)
+            ? details.filter(Boolean)
+            : details
+            ? [details]
+            : [];
+          return { title, items };
+        }
+        return null;
+      })
+      .filter(Boolean);
+  }
+
+  if (typeof source === "object") {
+    return Object.entries(source).map(([title, value]) => {
+      const items = Array.isArray(value)
+        ? value.filter(Boolean)
+        : value
+        ? [value]
+        : [];
+      return { title, items };
+    });
+  }
+
+  return [];
+};
+
 const sanitizeAcademicsText = (raw) => {
   let text = raw;
   text = text.replace(
@@ -33,6 +83,7 @@ const sanitizeAcademicsText = (raw) => {
 const Academics = () => {
   const [committees, setCommittees] = useState([]);
   const [courses, setCourses] = useState([]);
+  const [responsibilities, setResponsibilities] = useState([]);
   const [loading, setLoading] = useState(true);
   const [hadError, setHadError] = useState(false);
 
@@ -49,6 +100,7 @@ const Academics = () => {
         }
         setCommittees(normalizeEntries(parsed));
         setCourses(normalizeCourses(parsed));
+        setResponsibilities(normalizeResponsibilities(parsed));
       } catch (error) {
         console.error("Failed to load academics.json", error);
         setHadError(true);
@@ -72,6 +124,7 @@ const Academics = () => {
 
   const hasCommittees = committees.length > 0;
   const hasCourses = courses.length > 0;
+  const hasResponsibilities = responsibilities.length > 0;
   const renderCommaSeparated = (value) => {
     if (!value || typeof value !== "string") {
       return value || "—";
@@ -84,7 +137,7 @@ const Academics = () => {
     return parts.map((part, idx) => <div key={`${part}-${idx}`}>{part}</div>);
   };
 
-  if (!hasCommittees && !hasCourses) {
+  if (!hasCommittees && !hasCourses && !hasResponsibilities) {
     return (
       <section id="academics" className="py-8 space-y-4">
         <h2 className="text-2xl font-heading text-[#B46A3C] border-b-4 border-[#B46A3C] inline-block pb-1">
@@ -186,6 +239,35 @@ const Academics = () => {
                 ))}
               </tbody>
             </table>
+          </div>
+        </div>
+      )}
+
+      {hasResponsibilities && (
+        <div className="space-y-4">
+          <h3 className="text-2xl font-heading text-[#B46A3C] border-b-4 border-[#B46A3C] inline-block pb-1">
+            Additional Responsibilities
+          </h3>
+          <div className="grid gap-6 md:grid-cols-2">
+            {responsibilities.map((role, index) => (
+              <article
+                key={`${role.title || "role"}-${index}`}
+                className="rounded-2xl border border-white/10 bg-[#101418] p-6 shadow-2xl"
+              >
+                <h4 className="text-xl font-semibold text-primary">
+                  {role.title || "Responsibility"}
+                </h4>
+                {role.items && role.items.length > 0 ? (
+                  <ul className="mt-4 list-disc space-y-2 pl-5 text-white/80">
+                    {role.items.map((item, idx) => (
+                      <li key={`${role.title || "role"}-${idx}`}>{item}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="mt-4 text-white/60">Details coming soon.</p>
+                )}
+              </article>
+            ))}
           </div>
         </div>
       )}
