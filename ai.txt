@@ -1,0 +1,6 @@
+User-agent: GPTBot
+Disallow: /private/
+User-agent: ClaudeBot
+Disallow: /private/
+User-agent: *
+Allow: /
