@@ -5,10 +5,13 @@ const loadCarouselImages = () => {
   try {
     const context = require.context(
       "../assets/carousal_images",
-      false,
+      true,
       /\.(png|jpe?g|svg)$/
     );
-    return context.keys().map((key) => context(key));
+    const keys = context.keys();
+    const malaysiaKeys = keys.filter((key) => key.startsWith("./malaysia/"));
+    const otherKeys = keys.filter((key) => !key.startsWith("./malaysia/"));
+    return [...malaysiaKeys, ...otherKeys].map((key) => context(key));
   } catch (error) {
     console.error("Failed to load carousel images", error);
     return [];
