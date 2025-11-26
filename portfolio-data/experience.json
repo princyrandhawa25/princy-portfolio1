@@ -1,0 +1,45 @@
+{
+  "employment": [
+    {
+      "start_date": "4/09/2025",
+      "end_date": "Present",
+      "position": "Associate Professor",
+      "department": "AI/ML Department",
+      "institution": "Dayanand Sagar University, Bengaluru"
+    },
+    {
+      "start_date": "05/2025",
+      "end_date": "02/09/2025",
+      "position": "Associate Professor",
+      "department": "Department of Mechatronics Engineering",
+      "institution": "Manipal University Jaipur, Rajasthan"
+    },
+    {
+      "start_date": "07/2015",
+      "end_date": "04/2025",
+      "position": "Associate Professor",
+      "department": "Department of Mechatronics Engineering",
+      "institution": "Manipal University Jaipur, Rajasthan"
+    },
+    {
+      "start_date": "13/04/2023",
+      "end_date": "2025",
+      "position": "Assistant Director",
+      "department": "Directorate of Alumni Relations",
+      "institution": "Manipal University Jaipur"
+    },
+    {
+      "start_date": "09/2014",
+      "end_date": "06/2015",
+      "position": "Assistant Professor",
+      "specialization": "Applied Electronics and Instrumentation",
+      "institution": "MBS College of Engineering & Technology, Jammu"
+    },
+    {
+      "start_date": "07/2013",
+      "end_date": "05/2014",
+      "position": "System Modelling and Simulation Engineer",
+      "institution": "ITGlobe Inc, Bangalore, Karnataka"
+    }
+  ]
+}

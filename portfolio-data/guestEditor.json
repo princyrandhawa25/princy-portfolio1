@@ -1,0 +1,59 @@
+{
+  "guest_editor_roles": [
+    {
+      "sl_no": 1,
+      "title": "AI in Healthcare: Smarter Imaging and Personalized Treatment (Special Session-5)",
+      "event": "International Conference on AI, Computing, Communication, and Network Security (AICCoNS 2025)",
+      "institution": "University of Wollongong, Dubai",
+      "dates": "28-30 April 2026"
+    },
+    {
+      "sl_no": 2,
+      "title": "AI-Enabled Wearables: IoT Applications in Healthcare and Beyond (Special Session-4)",
+      "event": "International Conference on AI, Computing, Communication, and Network Security (AICCoNS 2025)",
+      "institution": "University of Wollongong, Dubai",
+      "dates": "28-30 April 2026"
+    },
+    {
+      "sl_no": 3,
+      "title": "Green Cybersecurity Ecosystems: Sustainable Approaches for the Modern World",
+      "role": "Book Editor",
+      "publisher": "Taylor & Francis / CRC Press",
+      "status": "Ongoing call for book chapters"
+    },
+    {
+      "sl_no": 4,
+      "title": "Advances in Energy Capture, Conversion and Storage: Innovations for a Sustainable Future",
+      "event": "Special Session in ES Energy & Environment (ESEE)",
+      "journal": "Scopus Indexed Q1 Journal"
+    },
+    {
+      "sl_no": 5,
+      "title": "Mechatronics for Smart Farming: Automation in Agriscience (Special Session-6)",
+      "event": "International Conference on AI, Computing, Communication, and Network Security (AICCoNS 2025)",
+      "institution": "University of Wollongong, Dubai",
+      "dates": "4-7 July 2025"
+    },
+    {
+      "sl_no": 6,
+      "title": "AI and Machine Learning for Interdisciplinary Innovation and Societal Impact",
+      "event": "Special Session",
+      "institution": "London Metropolitan University, London, UK",
+      "dates": "13-14 June 2025"
+    },
+    {
+      "sl_no": 7,
+      "title": "Advancing Data Science, IoT, and Artificial Intelligence: Models, Methods, and Applications (Special Session-6)",
+      "event": "International Conference on Computational Intelligence and Data Communication (ICCIDC 2025)",
+      "institution": "Politeknik Negeri, Bali, Indonesia",
+      "dates": "10-11 October 2025"
+    },
+    {
+      "sl_no": 8,
+      "title": "Advancing Data Science, IoT and Artificial Intelligence: Models, Methods and Applications (Special Session-11)",
+      "event": "International Conference on Computational Intelligence and Soft Computing (CISCom 2025)",
+      "institution": "Mallaka, Malaysia",
+      "dates": "26-27 November 2025"
+    }
+  ]
+}
