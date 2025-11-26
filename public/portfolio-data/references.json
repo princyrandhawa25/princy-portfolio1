@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Dr. Ramesh Kumar",
+    "designation": "Professor, Department of Mechatronics",
+    "institution": "Manipal University Jaipur",
+    "email": "ramesh.kumar@jaipur.manipal.edu",
+    "phone": "+91-9876543210"
+  },
+  {
+    "name": "Dr. Asha Nair",
+    "designation": "Head, Department of AI & ML",
+    "institution": "Dayananda Sagar University",
+    "email": "asha.nair@dsu.edu.in",
+    "phone": "+91-9988776655"
+  }
+]

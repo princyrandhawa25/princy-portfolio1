@@ -1,6 +1,5 @@
-// src/data/githubData.js
-export const GITHUB_BASE_URL =
-  "https://raw.githubusercontent.com/princyrandhawa25/princy-portfolio1/refs/heads/main/portfolio-data/";
+﻿// src/data/githubData.js
+export const GITHUB_BASE_URL = `${process.env.PUBLIC_URL || ""}/portfolio-data/`;
 
 export const defaultData = {
   about: {
@@ -93,3 +92,4 @@ export const fetchPortfolioData = async () => {
     ...(about ? { about } : {}),
   };
 };
+

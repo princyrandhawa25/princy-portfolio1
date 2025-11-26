@@ -68,7 +68,17 @@ export default function InvitedTalks() {
                 <td className="px-4 py-4 font-semibold text-primary">
                   {index + 1}
                 </td>
-                <td className="px-4 py-4 text-white/80">{talk.date}</td>
+                <td className="px-4 py-4 text-white/80">
+                  {Array.isArray(talk.dates) && talk.dates.length ? (
+                    <div className="space-y-1">
+                      {talk.dates.map((d, i) => (
+                        <div key={`${d}-${i}`}>{d}</div>
+                      ))}
+                    </div>
+                  ) : (
+                    talk.date
+                  )}
+                </td>
                 <td className="px-4 py-4">
                   <div className="font-semibold">{talk.title}</div>
                 </td>

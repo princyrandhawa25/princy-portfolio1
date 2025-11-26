@@ -1,0 +1,34 @@
+{
+  "education": [
+    {
+      "date": "Dec 2025",
+      "degree": "AIC PG Certification",
+      "specialization": "AI-Powered Computer Vision",
+      "institution": "NIT Warangal"
+    },
+    {
+      "date": "Oct 2024",
+      "degree": "MBA",
+      "specialization": "Business Analytics and Data Science",
+      "institution": "Manipal University Jaipur, Rajasthan, India"
+    },
+    {
+      "date": "02/2021",
+      "degree": "PhD",
+      "specialization":"Design and Development of Smart Jacket for the classification of Violent Motion using ML techniques", 
+      "institution": "Manipal University Jaipur, Jaipur, Rajasthan, India"
+    },
+    {
+      "date": "04/2013",
+      "degree": "M.Tech",
+      "specialization": "Control Systems",
+      "institution": "Manipal Institute of Technology, Manipal, Karnataka"
+    },
+    {
+      "date": "07/2010",
+      "degree": "B.Tech",
+      "specialization": "Applied Electronics and Instrumentation",
+      "institution": "Mahant Bachittar Singh College of Engineering and Technology, Jammu"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "book_chapters": [
+    {
+      "year": 2022,
+      "title": "Internet of Things (IoT) System Security Vulnerabilities and Its Mitigation",
+      "authors": "Patel, A.B., Sharma, P.R., Randhawa, P.",
+      "book_title": "Security and Privacy in Cyberspace. Blockchain Technologies",
+      "editors": "Kaiwartya, O., Kaushik, K., Gupta, S.K., Mishra, A., Kumar, M.",
+      "publisher": "Springer, Singapore",
+      "doi": "https://doi.org/10.1007/978-981-19-1960-2_8"
+    },
+    {
+      "year": 2022,
+      "title": "Industrial IoT Technologies and Protocols",
+      "authors": "Devkar, R., Randhawa, P., Bukya, M.",
+      "book_title": "New Frontiers in Cloud Computing and Internet of Things",
+      "series": "Internet of Things",
+      "editors": "Buyya, R., Garg, L., Fortino, G., Misra, S.",
+      "publisher": "Springer, Cham",
+      "doi": "https://doi.org/10.1007/978-3-031-05528-7_9"
+    },
+    {
+      "year": 2022,
+      "title": "IoT‐Based Smart City Applications: Infrastructure, Research and Development",
+      "authors": "Gupta, T., Randhawa, P., & Shrivas, N. V.",
+      "book_title": "Decision Support Systems for Smart City Applications",
+      "pages": "219-233"
+    },
+    {
+      "year": 2025,
+      "title": "Virtual Reality Enabled Robotic Surgery Training Through Telesurgery",
+      "authors": "Akshet, P., Cai, Y., Princy, R.",
+      "book_title": "Virtual and Augmented Reality Technology-Enhanced Learning. Gaming Media and Social Effects",
+      "editors": "Cai, Y., Ramnarain, U., Jieqiong Chen, J.",
+      "publisher": "Springer, Singapore",
+      "doi": "https://doi.org/10.1007/978-981-96-2332-7_6"
+    },
+    {
+      "year": 2025,
+      "title": "IoT Based Smart Home Systems",
+      "authors": "Patel, A., Sharma, S., & Randhawa, P.",
+      "book_title": "Explainable IoT Applications: A Demystification",
+      "publisher": "Springer Nature Switzerland",
+      "pages": "277-293"
+    },
+    {
+      "year": 2025,
+      "title": "Garbage Detection Using SURF Algorithm Based on Merchandise Marker",
+      "authors": "Gupta, L., Jain, S., Bansal, D., & Randhawa, P.",
+      "book_title": "Handbook of Research on Machine Learning",
+      "pages": "349-365",
+      "publisher": "Apple Academic Press"
+    }
+  ]
+}
