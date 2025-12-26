@@ -4,7 +4,7 @@
 
 2. Redouane, K., Fikri, Y., Sankaran, M., Garine, R., Veernapu, P., Randhawa, P., & Naik, N. (2025). Artificial Intelligence-Based Forecasting and Supply Optimization Network Using Hybrid Deep Learning and Optimization for Sustainable Food Systems. ES Food and Agroforestry.
 
-3. Redouane, K., Fikri, Y., Garine, R., Randhawa, P., & Naik, N. (2025). An Overview of Artificial Intelligence-Driven Intelligent Agronomy for Sustainable Productivity and Agri-Finance Transformation. ES Food and Agroforestry.
+3. Redouane, K., Fikri, Y., Garine, R., Randhawa, P. (2025). An Overview of Artificial Intelligence-Driven Intelligent Agronomy for Sustainable Productivity and Agri-Finance Transformation. ES Food and Agroforestry.
 
 4. Parwani, A.K., Goyal, P. Randhawa, S.B., Rajawat, A.S. et al. Metaverse Logistics: Harnessing Blockchain Technology for Next-Generation Supply Chain Systems. SN COMPUT. SCI. 6, 793 (2025). [https://doi.org/10.1007/s42979-025-04330-5](https://doi.org/10.1007/s42979-025-04330-5)
 
