@@ -2,9 +2,9 @@
 
 1. Randhawa, P., Shwetha, V., Mhetre, H.V. et al. Multi-correlation analysis of optimizing the electrospinning parameters for ZnO + PVP nanofiber synthesis using statistical coefficient methods. Discov Mater (2025). [https://doi.org/10.1007/s43939-025-00494-2](https://doi.org/10.1007/s43939-025-00494-2)
 
-2. Redouane, K., Fikri, Y., Sankaran, M., Garine, R., Veernapu, P., Randhawa, P., & Naik, N. (2025). Artificial Intelligence-Based Forecasting and Supply Optimization Network Using Hybrid Deep Learning and Optimization for Sustainable Food Systems. ES Food and Agroforestry.
+2. Redouane, K., Fikri, Y., Sankaran, M., Garine, R., Veernapu, P., Randhawa, P., & Naik, N. (2025). Artificial Intelligence-Based Forecasting and Supply Optimization Network Using Hybrid Deep Learning and Optimization for Sustainable Food Systems. ES Food and Agroforestry. [https://www.espublisher.com/journals/articledetails/1936](https://www.espublisher.com/journals/articledetails/1936)
 
-3. Redouane, K., Fikri, Y., Garine, R., Randhawa, P.(2025). An Overview of Artificial Intelligence-Driven Intelligent Agronomy for Sustainable Productivity and Agri-Finance Transformation. ES Food and Agroforestry.
+3. Redouane, K., Fikri, Y., Garine, R., Randhawa, P.(2025). An Overview of Artificial Intelligence-Driven Intelligent Agronomy for Sustainable Productivity and Agri-Finance Transformation. ES Food and Agroforestry. [https://www.espublisher.com/journals/articledetails/1938](https://www.espublisher.com/journals/articledetails/1938)
 
 4. Parwani, A.K., Goyal, P. Randhawa, S.B., Rajawat, A.S. et al. Metaverse Logistics: Harnessing Blockchain Technology for Next-Generation Supply Chain Systems. SN COMPUT. SCI. 6, 793 (2025). [https://doi.org/10.1007/s42979-025-04330-5](https://doi.org/10.1007/s42979-025-04330-5)
 
@@ -51,3 +51,5 @@
 25. Randhawa, P., Shanthagiri, V., & Kumar, A. (2019). Identification of Violent Response with Stretch Sensor Data from a Smart-Jacket using NaA_ve Bayes Algorithm. International Journal of Innovative Technology and Exploring Engineering, Volume-9 Issue-1.
 
 26. Randhawa, P., Shanthagiri, V., & Kumar, A. (2019). Recognition of Violent Activity Response Using Machine Learning Methods with Wearable Sensors. Journal of Advanced Research in Dynamical and Control Systems.
+
+
