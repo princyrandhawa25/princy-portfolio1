@@ -1,6 +1,16 @@
 {
   "invited_talks": [
     {
+      "date": "06 March 2026",
+      "title": "Keynote Address on Human Activity Detection using ML from Wearable Sensors",
+      "location": "IEEE International Conference on Machine, Engineering and Digital (IMED)"
+    },
+    {
+      "date": "22 Feb 2026",
+      "title": "Delivered a talk on \"Conclusions, Limitations, Implications and Future Scope\"",
+      "location": "UGC-MMTC, Central University of Gujarat, in collaboration with Vidhyadeep University"
+    },
+    {
       "date": "22 Oct 2025",
       "title": "Conducted a hands-on training workshop on \"How to Boost Academic Research Using AnswerThis\"",
       "location": "University of Malaya, Malaysia"
