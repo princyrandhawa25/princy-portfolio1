@@ -1,6 +1,10 @@
 {
   "courses_taught": [
     {
+      "academic_year": "2025-2026",
+      "name_of_the_subject": "Data Science, Java, Industrial Robotics"
+    },
+    {
       "academic_year": "2024-2025",
       "name_of_the_subject": "Computer Vision, Problem Solving Using Computers"
     },
