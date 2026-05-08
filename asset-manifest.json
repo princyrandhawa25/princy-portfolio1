@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.ddbc2e5e.css",
-    "main.js": "/static/js/main.aaa46cd7.js",
+    "main.js": "/static/js/main.5cdce5b6.js",
     "static/js/453.d7d8c901.chunk.js": "/static/js/453.d7d8c901.chunk.js",
+    "static/media/02-imed-2026-felicitation.jpeg": "/static/media/02-imed-2026-felicitation.a3f5835fc04f72930bfa.jpeg",
     "static/media/WhatsApp Image 2025-11-24 at 07.43.19.jpeg": "/static/media/WhatsApp Image 2025-11-24 at 07.43.19.ba648cfe6cab8f07405d.jpeg",
     "static/media/m10.jpeg": "/static/media/m10.ba648cfe6cab8f07405d.jpeg",
     "static/media/WhatsApp Image 2025-11-24 at 07.43.13.jpeg": "/static/media/WhatsApp Image 2025-11-24 at 07.43.13.8bb1c01fce38bd0faa9e.jpeg",
@@ -17,6 +18,8 @@
     "static/media/WhatsApp Image 2025-11-17 at 07.02.25 (1).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.25 (1).4c2f6f036f78dbeb7466.jpeg",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.27.jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.27.5bde0e7c6df7c452f78a.jpeg",
     "static/media/WhatsApp Image 2025-11-24 at 07.43.23 (2).jpeg": "/static/media/WhatsApp Image 2025-11-24 at 07.43.23 (2).a504eb746318fccf764c.jpeg",
+    "static/media/01-imed-2026-award-ceremony.jpeg": "/static/media/01-imed-2026-award-ceremony.8891afdd978a43ea6f0f.jpeg",
+    "static/media/m3a-imed-2026-award-ceremony.jpeg": "/static/media/m3a-imed-2026-award-ceremony.8891afdd978a43ea6f0f.jpeg",
     "static/media/WhatsApp Image 2025-11-17 at 07.08.27 (3).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.08.27 (3).fa0781c4beaa76c768ae.jpeg",
     "static/media/WhatsApp Image 2025-11-17 at 07.02.23 (1).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.23 (1).82ba493dff03799dad2a.jpeg",
     "static/media/WhatsApp Image 2025-11-24 at 07.43.19 (1).jpeg": "/static/media/WhatsApp Image 2025-11-24 at 07.43.19 (1).1854b02a9b0885d1da14.jpeg",
@@ -50,6 +53,7 @@
     "static/media/WhatsApp Image 2025-11-17 at 07.02.21 (1).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.02.21 (1).bf84430c578ad2a1c2fa.jpeg",
     "static/media/WhatsApp Image 2025-11-17 at 07.08.27 (2).jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.08.27 (2).7bc4ef4c41d42606e49e.jpeg",
     "static/media/WhatsApp Image 2025-11-17 at 07.08.30.jpeg": "/static/media/WhatsApp Image 2025-11-17 at 07.08.30.15b9749ccad6ab88a536.jpeg",
+    "static/media/00-imed-2026-group-photo.jpeg": "/static/media/00-imed-2026-group-photo.d98f3a42fff490cf4df4.jpeg",
     "static/media/WhatsApp Image 2025-11-24 at 07.43.24 (2).jpeg": "/static/media/WhatsApp Image 2025-11-24 at 07.43.24 (2).31710c5a3266e72f8624.jpeg",
     "static/media/WhatsApp Image 2025-11-24 at 07.43.20.jpeg": "/static/media/WhatsApp Image 2025-11-24 at 07.43.20.de07d758ed659f58e710.jpeg",
     "static/media/m4.jpeg": "/static/media/m4.de07d758ed659f58e710.jpeg",
@@ -102,11 +106,11 @@
     "static/media/princy_photo.jpg": "/static/media/princy_photo.a018fb79260161538da9.jpg",
     "index.html": "/index.html",
     "main.ddbc2e5e.css.map": "/static/css/main.ddbc2e5e.css.map",
-    "main.aaa46cd7.js.map": "/static/js/main.aaa46cd7.js.map",
+    "main.5cdce5b6.js.map": "/static/js/main.5cdce5b6.js.map",
     "453.d7d8c901.chunk.js.map": "/static/js/453.d7d8c901.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddbc2e5e.css",
-    "static/js/main.aaa46cd7.js"
+    "static/js/main.5cdce5b6.js"
   ]
 }
