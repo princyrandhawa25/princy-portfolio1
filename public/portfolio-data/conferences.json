@@ -1,6 +1,33 @@
 {
   "conference_presentations": [
     {
+      "title": "Optimising Large Language Models for Lung Cancer-Related Clinical Text for a Scalable Fine-Tuning Pipeline",
+      "authors": "N. Gautam, M. Ramteke, M. Gautam, J. K. Jaiswal, P. Randhawa, S. K. Yadav",
+      "conference": "2026 Innovations in Machine, Engineering, and Digital Conference (IMED)",
+      "location": "Kota Kinabalu, Malaysia",
+      "year": 2026,
+      "pages": "1-7",
+      "doi": "10.1109/IMED68921.2026.11484925"
+    },
+    {
+      "title": "Enhancing Decision Making in Retail Customer Behavior Through Predictive Analysis: Anticipating Trends and Preferences",
+      "authors": "A. Pant, V. Nandre, J. K. Jaiswal, R. K. Mishra, S. Sah, P. Randhawa",
+      "conference": "2026 Innovations in Machine, Engineering, and Digital Conference (IMED)",
+      "location": "Kota Kinabalu, Malaysia",
+      "year": 2026,
+      "pages": "1-7",
+      "doi": "10.1109/IMED68921.2026.11484895"
+    },
+    {
+      "title": "Identifying Key Predictors of Employee Attrition: A Data Analytics Perspective",
+      "authors": "S. Sah, R. K. Mishra, J. K. Jaiswal, A. Pant, V. Nandre, P. Randhawa",
+      "conference": "2026 Innovations in Machine, Engineering, and Digital Conference (IMED)",
+      "location": "Kota Kinabalu, Malaysia",
+      "year": 2026,
+      "pages": "1-7",
+      "doi": "10.1109/IMED68921.2026.11484367"
+    },
+    {
       "title": "Quantum Machine Learning: Enhancing Algorithms through Quantum Neural Networks and Data Analysis",
       "authors": "R. Sengupta, U. Desai, A. S. Rajawat, S. B. Goyal, P. Randhawa, M. P. Bala",
       "conference": "2024 International Conference on Augmented Reality, Intelligent Systems, and Industrial Automation (ARIIA)",
